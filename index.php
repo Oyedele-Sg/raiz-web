@@ -315,7 +315,7 @@
                         </div>
                         <div class="text-container">
                             <h3 class="large-text">Savings and Goals</h3>
-                            <div class="body-text">The Monzo Flex Credit Card could help you build your credit score if you make your payments on time and stay within your credit limit. Set personalized savings goals, track progress, and automate transfers to make saving a breeze.†</div>
+                            <div class="body-text">You can’t avoid spending. That’s how you pay for your needs. But we can help you put money away every time you pay for something. Own your savings journey with the Goals account. Just set a percentage to save or add money at your pace and watch your money grow.†</div>
                         </div>
                     </div>
 
@@ -473,7 +473,7 @@
                         </div>
                         <div class="text-container">
                             <h3 class="large-text">Budget & Analytics</h3>
-                            <div class="body-text">The Monzo Flex Credit Card could help you build your credit score if you make your payments on time and stay within your credit limit. Track your spending habits with insightful analytics. Effortlessly create and manage a budget that works for you.</div>
+                            <div class="body-text">Get insights into your finances and make informed decisions. If you fail to plan, you plan to fail. Budget your finances for the current or next month and let us help you stick to the budget. .</div>
                         </div>
                     </div>
 

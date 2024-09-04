@@ -9,7 +9,7 @@
 <script src="assets/js/wow.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="assets/js/main.js"></script>
-<script>
+<!-- <script>
     // ==== for menu scroll
     const pageLink = document.querySelectorAll(".ud-menu-scroll");
 
@@ -51,7 +51,7 @@
     }
 
     window.document.addEventListener("scroll", onScroll);
-</script>
+</script> -->
 <script>
     // Cookie Policy
     document.addEventListener("DOMContentLoaded", function () {

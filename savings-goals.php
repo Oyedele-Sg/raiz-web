@@ -19,14 +19,14 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="content-wrap wow fadeInUp" data-wow-delay=".2s">
                             <div class="section-title">Savings Goals</div>
-                            <h3 class="large-text">Unlock the world with Raiz USD banking for you</h3>
-                            <div class="small-text">Set personalized savings goals, track your progress in real-time, and automate transfers to effortlessly build your financial future.</div>
+                            <h3 class="large-text">Set, track, and reach your financial goals with ease.</h3>
+                            <div class="small-text">Whether you're saving for a vacation, a new gadget, or a rainy day, our intuitive savings goals feature helps you plan, track, and stay motivated.</div>
                             <div class="btn-link--wrapper mb-4 pt-3">
-                                <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
+                                <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn">
                                     <div class="text-move--wrapper">
                                         <div class="text-move">
-                                            <div class="button-text">Get started</div>
-                                            <div class="button-text is_2">Get started</div>
+                                            <div class="button-text">Start saving</div>
+                                            <div class="button-text is_2">Start saving</div>
                                         </div>
                                     </div>
                                 </a>
@@ -47,70 +47,39 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap">
-                            <h2 class="large-text"><span class="text-cursive">Raizing</span> the bar in banking.</h2>
-                            <p class="small-text">Take control of your finances. Earn cashback, get paid early, and split bills with ease. Raiz puts you in charge.</p>
+                            <h2 class="large-text"><span class="text-cursive">Raiz</span> your savings.</h2>
+                            <p class="small-text">Reach Your Financial Goals Faster with Raiz</p>
                         </div>
                         
                         <div class="feature-item--wrapper">
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Customizable Goal Setting">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Reach your financial goals faster</div>
-                                    <div class="small-text">Set personalized savings goals, track progress, and automate transfers to watch your money grow effortlessly.</div>
+                                    <div class="large-text">Customizable Goal Setting</div>
+                                    <div class="small-text">Define and personalize your savings goals with flexible options. Set specific targets, deadlines, and amounts to match your unique financial aspirations.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Progress Tracking">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Hassle-free bill splitting with friends</div>
-                                    <div class="small-text">Settling bills with your friends is now easy. Split evenly or vary the amounts for people who've contributed more.</div>
+                                    <div class="large-text">Progress Tracking</div>
+                                    <div class="small-text">Monitor your savings journey with real-time updates. Our progress tracking feature shows how close you are to reaching your goal, helping you stay motivated and on track.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automated Savings Plans">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Take control of your spending and Raiz your money game</div>
-                                    <div class="small-text">Track spending, create budgets, and gain valuable insights to make informed financial decisions.</div>
+                                    <div class="large-text">Automated Savings Plans</div>
+                                    <div class="small-text">Simplify saving with automated contributions. Set up recurring transfers to your savings goal, ensuring consistent progress without having to remember to save manually.</div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="why-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                        <div class="why-grid">
-                            <div class="why-item">
-                                <img src="assets/images/icons/facelock-icon.svg" loading="lazy" alt="Safe Log In" class="svg-icon">
-                                <div class="large-text">Safe Log In</div>
-                                <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/identity-check-icon.svg" loading="lazy" alt="Identity Check" class="svg-icon">
-                                <div class="large-text">Identity Check</div>
-                                <p class="small-text">To ensure it's really you, we ask for a government-issued ID with your photo, plus a liveness check.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/always-safe-icon.svg" loading="lazy" alt="Always Safe" class="svg-icon">
-                                <div class="large-text">Always Safe</div>
-                                <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/notifications-icon.svg" loading="lazy" alt="" class="svg-icon">
-                                <div class="large-text">Notifications</div>
-                                <p class="small-text">Get instant notifications every time you spend with your card.</p>
                             </div>
                         </div>
                     </div>

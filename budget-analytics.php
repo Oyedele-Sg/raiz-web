@@ -18,11 +18,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-12">
                         <div class="content-wrap wow fadeInUp" data-wow-delay=".2s">
-                            <div class="section-title">USD Banking</div>
-                            <h3 class="large-text">Unlock the world with Raiz USD banking for you</h3>
-                            <div class="small-text">Gain valuable insights into your spending habits, create personalized budgets, and track your progress towards financial goals. Empower yourself with data-driven decision-making.</div>
+                            <div class="section-title">Budget & Analytics</div>
+                            <h3 class="large-text">Master your money with smart budgeting</h3>
+                            <div class="small-text">Take control of your finances with our budget & analytics tools. Track your spending, set budget goals, and gain insights into your financial habits with detailed analytics.</div>
                             <div class="btn-link--wrapper mb-4 pt-3">
-                                <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
+                                <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn">
                                     <div class="text-move--wrapper">
                                         <div class="text-move">
                                             <div class="button-text">Get started</div>
@@ -47,8 +47,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap">
-                            <h2 class="large-text"><span class="text-cursive">Raizing</span> the bar in banking.</h2>
-                            <p class="small-text">Take control of your finances. Earn cashback, get paid early, and split bills with ease. Raiz puts you in charge.</p>
+                            <h2 class="large-text"><span class="text-cursive">Smart</span> money moves.</h2>
+                            <p class="small-text">Track, budget, and optimize your finances with ease and insight.</p>
                         </div>
                         
                         <div class="feature-item--wrapper">

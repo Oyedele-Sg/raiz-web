@@ -3690,6 +3690,14 @@ sup {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.why-section .why-grid.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.why-section .why-grid.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .why-grid .why-item {
     display: flex;
     flex-direction: column;
@@ -4894,6 +4902,10 @@ sup {
 .faq {
     padding: 80px 0 120px;
     position: relative;
+}
+
+.more-features + .faq {
+    padding-top: 120px;
 }
 
 .faq-icon {

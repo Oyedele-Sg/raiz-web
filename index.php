@@ -23,11 +23,19 @@
                                 <h3 class="hero-subtitle">Seamless banking, personalized savings, and spending—all in one place.</h3>
                                 <div class="mb-4 pt-3">
                                     <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
-                                        <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon">
+                                        <!-- <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon"> -->
                                         <div class="text-move--wrapper">
                                             <div class="text-move">
                                                 <div class="button-text">Get the App</div>
                                                 <div class="button-text is_2">Get the App</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="usd-banking.php" class="get-app--btn">
+                                        <div class="text-move--wrapper">
+                                            <div class="text-move">
+                                                <div class="button-text">Learn More</div>
+                                                <div class="button-text is_2">Learn More</div>
                                             </div>
                                         </div>
                                     </a>
@@ -39,7 +47,7 @@
                         <img src="assets/images/hero-bg-image.webp" class="hero-bg-image" alt=""/>
                     </div>
                 </div>
-                <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Palmpay Inc Ltd.</div>
+                <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Hope Payment Service Bank.</div>
             </div>
             <!-- <div class="hero-image--background"></div> -->
         </section>
@@ -132,10 +140,10 @@
                                             </div>
                                             <div class="copy-wrapper">
                                                 <div class="tagline">USD Banking</div>
-                                                <h3 class="large-text">Unlock the world with Raiz USD banking for you</h3>
-                                                <div class="small-text">Give your money a chance to work towards your financial goals with Round-Ups®, expert-built, diversified portfolios, Recurring Investments, and more.</div>
+                                                <h3 class="large-text">Raiz the bar with USD Banking just for you</h3>
+                                                <div class="small-text">Open a USD account with a few clicks and enjoy money transfer with ease</div>
                                                 <div class="btn-link--wrapper">
-                                                    <a href="#" class="get-app--btn">
+                                                    <a href="usd-banking.php" class="get-app--btn">
                                                         <div class="text-move--wrapper">
                                                             <div class="text-move">
                                                                 <div class="button-text">Explore USD Banking</div>
@@ -156,9 +164,9 @@
                                             <div class="copy-wrapper">
                                                 <div class="tagline">Payday Loans</div>
                                                 <h3 class="large-text">Turn any day into payday</h3>
-                                                <div class="small-text">Get up to ₦50,000 in 5 minutes or less. Set up a direct deposit with Current and, once you qualify, get up to a ₦50,000 paycheck advance.</div>
+                                                <div class="small-text">Get quick payday loans tailored to your needs.</div>
                                                 <div class="btn-link--wrapper">
-                                                    <a href="#" class="get-app--btn">
+                                                    <a href="payday-loans.php" class="get-app--btn">
                                                         <div class="text-move--wrapper">
                                                             <div class="text-move">
                                                                 <div class="button-text">Explore Payday Loans</div>
@@ -178,10 +186,10 @@
                                             </div>
                                             <div class="copy-wrapper">
                                                 <div class="tagline">Swap</div>
-                                                <h3 class="large-text">Unlock the world with Raiz USD banking for you</h3>
-                                                <div class="small-text">Make transfers on the go, &nbsp;quick and easy from your mobile. &nbsp;Send money to other Raiz accounts or any other bank around the world.</div>
+                                                <h3 class="large-text">Swap Currencies, Quick & Easy</h3>
+                                                <div class="small-text">Enjoy the freedom to exchange currency whenever you desire, for transactions or investing.</div>
                                                 <div class="btn-link--wrapper">
-                                                    <a href="#" class="get-app--btn">
+                                                    <a href="swaps.php" class="get-app--btn">
                                                         <div class="text-move--wrapper">
                                                             <div class="text-move">
                                                                 <div class="button-text">Explore Swap</div>
@@ -200,11 +208,11 @@
                                                 <img src="assets/images/raiz-community-saving-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
                                             </div>
                                             <div class="copy-wrapper">
-                                                <div class="tagline">Ajo</div>
-                                                <h3 class="large-text">Unlock the world with Raiz USD banking for you</h3>
-                                                <div class="small-text">Give your money a chance to work towards your financial goals with Round-Ups®, expert-built, diversified portfolios, Recurring Investments, and more.</div>
+                                                <div class="tagline">Community Savings (Ajo)</div>
+                                                <h3 class="large-text">Achieve your Saving goal Faster with Community Savings</h3>
+                                                <div class="small-text">Join a community of savers, build healthy financial habits, and achieve your goals with ease..</div>
                                                 <div class="btn-link--wrapper">
-                                                    <a href="#" class="get-app--btn">
+                                                    <a href="ajo.php" class="get-app--btn">
                                                         <div class="text-move--wrapper">
                                                             <div class="text-move">
                                                                 <div class="button-text">Explore Community Savings</div>
@@ -221,64 +229,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="features-layout--grid layout-1 wow fadeInUp" data-wow-delay=".3s">
-                            <img src="assets/images/raiz-usd-wallet-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="phone-image">
-                            <h3 class="large-text grid-spacing">
-                                <span class="span-green">Unlock </span>the world with Raiz USD banking for you
-                            </h3>
-                            <div class="text-wrapper">
-                                <p class="small-text">Make transfers on the go, &nbsp;quick and easy from your mobile. &nbsp;Send money to other Raiz accounts or any other bank around the world.</p>
-                                <button class="more-info--btn" data-bs-toggle="modal" data-bs-target="#usdBanking">
-                                    <svg width="24" height="24" viewBox="0 0 24 24"> <g clip-path="url(#clip0_1866_77093)"> <path d="M12.75 11V16.5H11.25V11.5L12.75 11Z" fill="currentColor"></path> <path d="M12.75 9.5V7.5L11.25 8V10L12.75 9.5Z" fill="currentColor"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z" fill="currentColor"></path> </g> </svg> <span>More info on Global Banking</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="features-layout--grid layout-2 wow fadeInUp" data-wow-delay=".35s">
-                            <img src="assets/images/raiz-loans-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="phone-image">
-                            <h3 class="large-text grid-spacing">
-                                Turn any day into <span class="">payday</span>
-                            </h3>
-                            <div class="text-wrapper">
-                                <p class="small-text">Get up to &#8358;50,000 in 5 minutes or less. Set up a direct deposit with Current and, once you qualify, get up to a &#8358;50,000 paycheck advance.</p>
-                                <button class="more-info--btn" data-bs-toggle="modal" data-bs-target="#paydayLoans">
-                                    <svg width="24" height="24" viewBox="0 0 24 24"> <g clip-path="url(#clip0_1866_77093)"> <path d="M12.75 11V16.5H11.25V11.5L12.75 11Z" fill="currentColor"></path> <path d="M12.75 9.5V7.5L11.25 8V10L12.75 9.5Z" fill="currentColor"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z" fill="currentColor"></path> </g> </svg> <span>More info on Payday Loan</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="features-layout--grid layout-1 wow fadeInUp" data-wow-delay=".4s">
-                            <img src="assets/images/raiz-community-saving-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="phone-image">
-                            <h3 class="large-text grid-spacing">
-                                <span class="">Collaborative</span> access to finance
-                            </h3>
-                            <div class="text-wrapper">
-                                <p class="small-text">Settling bills with your friends is now easy. Split evenly or vary the amounts for people who've contributed more.</p>
-                                <button class="more-info--btn">
-                                    <svg width="24" height="24" viewBox="0 0 24 24"> <g clip-path="url(#clip0_1866_77093)"> <path d="M12.75 11V16.5H11.25V11.5L12.75 11Z" fill="currentColor"></path> <path d="M12.75 9.5V7.5L11.25 8V10L12.75 9.5Z" fill="currentColor"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z" fill="currentColor"></path> </g> </svg> <span>More info on Community Savings (Ajo)</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="features-layout--grid layout-2 wow fadeInUp" data-wow-delay=".45s">
-                            <img src="assets/images/raiz-swap-usd-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="phone-image">
-                            <h3 class="large-text grid-spacing">
-                                <span class="span-green">Pay or get paid </span>easily and quickly
-                            </h3>
-                            <div class="text-wrapper">
-                                <p class="small-text">Make transfers on the go, &nbsp;quick and easy from your mobile. &nbsp;Send money to other Raiz accounts or any other bank around the world.</p>
-                                <button class="more-info--btn">
-                                    <svg width="24" height="24" viewBox="0 0 24 24"> <g clip-path="url(#clip0_1866_77093)"> <path d="M12.75 11V16.5H11.25V11.5L12.75 11Z" fill="currentColor"></path> <path d="M12.75 9.5V7.5L11.25 8V10L12.75 9.5Z" fill="currentColor"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z" fill="currentColor"></path> </g> </svg> <span>More info on Community Savings (Ajo)</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
             <div class="hero-image--background"></div>
         </section>

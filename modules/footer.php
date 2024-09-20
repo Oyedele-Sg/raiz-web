@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="image-wrapper">
-                <img src="assets/images/footer-phone.avif" loading="lazy" alt="" class="image">
+                <img src="assets/images/footer-phone.png" loading="lazy" alt="" class="image">
             </div>
         </div>
     </div>
@@ -79,8 +79,8 @@
             </div>
             <div class="col-md-12 col-sm-12 mt-4">
                 <p class="disclaimer-text">Raiz Digital Services, Co. <br>300 N Creekview, Suite 205 Newark DE 19711 US.</p>
-                <p class="disclaimer-text">Raiz Digital Services Company is a data and financial technology company, not a bank. Banking services are provided by licensed banking partners Palmpay Inc Ltd with registered address at 20 Opebi Rd, Opebi, Lagos 101233, Lagos, Nigeria. Palmpay is regulated by the SEC and the CBN. US services are offered by Raiz Digital Services Company with its registered address at 300 N Creekview, Suite 205 Newark DE 19711 US.</p>
-                <p class="disclaimer-text">†Savings accounts are provided by Palmpay Bank. Annual percentage yield (APY) of 2% as of 06/16/2022. APY subject to change. No minimum deposit is required to open an account, account is subject to identity verification and no minimum balance is required to obtain any advertised APY. Accounts will not be charged monthly fees.</p>
+                <p class="disclaimer-text">Raiz Digital Services Company is a data and financial technology company, not a bank. Banking services are provided by licensed banking partners Providus Bank with registered address at 724 Adetokunbo Ademola Street, Victoria Island, Lagos 101241, Lagos, Nigeria. Providus Bank is regulated by the SEC and the CBN. US services are offered by Raiz Digital Services Company with its registered address at 300 N Creekview, Suite 205 Newark DE 19711 US.</p>
+                <p class="disclaimer-text">†Savings accounts are provided by Providus Bank. Annual percentage yield (APY) of 2% as of 06/16/2022. APY subject to change. No minimum deposit is required to open an account, account is subject to identity verification and no minimum balance is required to obtain any advertised APY. Accounts will not be charged monthly fees.</p>
                 <div class="copyright-text"> © Raiz Digital Services Company <?php echo date("Y"); ?>. All rights reserved. </div>
             </div>
         </div>

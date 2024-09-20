@@ -1,3 +1,3 @@
-# Cheery Website
+# Raiz Website
 
-The official repository for the Cheery Website.
+The official repository for the Raiz Website.

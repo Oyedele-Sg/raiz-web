@@ -54,63 +54,32 @@
                         <div class="feature-item--wrapper">
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Stay on top of your spending">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Reach your financial goals faster</div>
-                                    <div class="small-text">Set personalized savings goals, track progress, and automate transfers to watch your money grow effortlessly.</div>
+                                    <div class="large-text">Stay on top of your spending</div>
+                                    <div class="small-text">Monitor your expenses as they happen. Get real-time updates on your spending and compare it against your budget to ensure you stay within your limits.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Tailor your budget to your needs.">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Hassle-free bill splitting with friends</div>
-                                    <div class="small-text">Settling bills with your friends is now easy. Split evenly or vary the amounts for people who've contributed more.</div>
+                                    <div class="large-text">Tailor your budget to your needs.</div>
+                                    <div class="small-text">Create and manage custom budget categories that fit your unique spending patterns. Easily allocate funds to specific areas and adjust as needed to meet your financial goals.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
                                 <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Achieve your financial goals">
                                 </div>
                                 <div class="copy-wrapper">
-                                    <div class="large-text">Take control of your spending and Raiz your money game</div>
-                                    <div class="small-text">Track spending, create budgets, and gain valuable insights to make informed financial decisions.</div>
+                                    <div class="large-text">Achieve your financial goals</div>
+                                    <div class="small-text">Set personal savings and spending goals and track your progress over time. Stay motivated and focused with clear milestones and actionable insights to help you reach your targets.</div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="why-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                        <div class="why-grid">
-                            <div class="why-item">
-                                <img src="assets/images/icons/facelock-icon.svg" loading="lazy" alt="Safe Log In" class="svg-icon">
-                                <div class="large-text">Safe Log In</div>
-                                <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/identity-check-icon.svg" loading="lazy" alt="Identity Check" class="svg-icon">
-                                <div class="large-text">Identity Check</div>
-                                <p class="small-text">To ensure it's really you, we ask for a government-issued ID with your photo, plus a liveness check.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/always-safe-icon.svg" loading="lazy" alt="Always Safe" class="svg-icon">
-                                <div class="large-text">Always Safe</div>
-                                <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                            </div>
-                            <div class="why-item">
-                                <img src="assets/images/icons/notifications-icon.svg" loading="lazy" alt="" class="svg-icon">
-                                <div class="large-text">Notifications</div>
-                                <p class="small-text">Get instant notifications every time you spend with your card.</p>
                             </div>
                         </div>
                     </div>

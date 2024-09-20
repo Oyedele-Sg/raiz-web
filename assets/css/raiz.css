@@ -1311,6 +1311,12 @@ sup {
     overflow: hidden;
 }
 
+.get-app--btn.outline-btn {
+    background-color: transparent;
+    border: 1px solid #950d63;
+    color: var(--heading-color);
+}
+
 .navbar-btn .get-app--btn {
     font-size: 1rem;
     padding: 14px 20px;
@@ -1370,6 +1376,10 @@ sup {
 .get-app--btn:hover, .qr-text--wrapper .app-download--btn:hover {
     background-color: var(--main-btn-hover-bg);
     color: #fff;
+}
+
+.get-app--btn.outline-btn:hover {
+    border-color: transparent;
 }
 
 .qr-text--wrapper .app-download--btn:hover {
@@ -1499,6 +1509,13 @@ sup {
     width: 70%;
     max-width: 20rem;
     padding: 2rem;
+}
+
+.hero .btn-action--wrapper {
+    display: flex;
+    gap: 12px;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 

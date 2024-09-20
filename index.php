@@ -21,9 +21,8 @@
                             <h1 class="hero-title"><span class="text-cursive">Empower</span> your finances with Raiz Finance</h1>
                             <div class="hero-text--wrapper">
                                 <h3 class="hero-subtitle">Seamless banking, personalized savings, and spending—all in one place.</h3>
-                                <div class="mb-4 pt-3">
+                                <div class="btn-action--wrapper">
                                     <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
-                                        <!-- <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon"> -->
                                         <div class="text-move--wrapper">
                                             <div class="text-move">
                                                 <div class="button-text">Get the App</div>
@@ -31,7 +30,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="usd-banking.php" class="get-app--btn">
+                                    <a href="usd-banking.php" class="get-app--btn outline-btn">
                                         <div class="text-move--wrapper">
                                             <div class="text-move">
                                                 <div class="button-text">Learn More</div>

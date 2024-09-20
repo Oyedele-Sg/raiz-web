@@ -1,7 +1,7 @@
 <!-- Primary Meta Tags -->
-<title>Moola — Money Made Easy for Kids</title>
-<meta name="title" content="Moola — Money Made Easy for Kids">
-<meta name="description" content="Moola is introducing kids to the fundamental world of money; how to save, earn, spend wisely, and invest. We're helping parents raise financially healthy kids.">
+<title>Raiz - Empower your finances with Raiz Finance</title>
+<meta name="title" content="Raiz - Empower your finances with Raiz Finance">
+<meta name="description" content="Seamless banking, personalized savings, and spending—all in one place. Raiz is your all-in-one financial solution designed to empower you and simplify your financial journey.">
 
 <!--====== Favicon Icon ======-->
 <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
@@ -19,14 +19,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://getcheery.io/">
-<meta property="og:title" content="Moola — Money Made Easy for Kids">
-<meta property="og:description" content="Moola is introducing kids to the fundamental world of money; how to save, earn, spend wisely, and invest. We're helping parents raise financially healthy kids.">
-<meta property="og:image" content="https://getcheery.io/assets/images/cheery-meta-image.png">
+<meta property="og:url" content="#">
+<meta property="og:title" content="Raiz - Empower your finances with Raiz Finance">
+<meta property="og:description" content="Seamless banking, personalized savings, and spending—all in one place. Raiz is your all-in-one financial solution designed to empower you and simplify your financial journey.">
+<meta property="og:image" content="#">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://getcheery.io/">
-<meta property="twitter:title" content="Moola — Money Made Easy for Kids">
-<meta property="twitter:description" content="Moola is introducing kids to the fundamental world of money; how to save, earn, spend wisely, and invest. We're helping parents raise financially healthy kids.">
-<meta property="twitter:image" content="https://getcheery.io/assets/images/cheery-meta-image.png">
+<meta property="twitter:url" content="#">
+<meta property="twitter:title" content="Raiz - Empower your finances with Raiz Finance">
+<meta property="twitter:description" content="Seamless banking, personalized savings, and spending—all in one place. Raiz is your all-in-one financial solution designed to empower you and simplify your financial journey.">
+<meta property="twitter:image" content="#">

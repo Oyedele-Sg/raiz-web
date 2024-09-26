@@ -1193,6 +1193,10 @@ sup {
     height: 24px;
 }
 
+.navbar-toggler .toggler-icon {
+    background-color: var(--heading-color);
+}
+
 .sticky {
 	background-color: rgba(255, 255, 255, 1);
     background-color: #ebedf5;
@@ -6172,7 +6176,7 @@ sup {
         height: 40px;
         max-width: 40px;
     }
-    .intro .intro-grid, .features-layout--grid, .feature-section--item, .feature-section--item.image-left, .why-section .why-grid, .db-card--grid, .db-card--grid .card-features, .image-breaker .grid-image--wrapper, .footer-links--social {
+    .intro .intro-grid, .features-layout--grid, .feature-section--item, .feature-section--item.image-left, .why-section .why-grid, .db-card--grid, .db-card--grid .card-features, .image-breaker .grid-image--wrapper, .footer-links--social, .features-tab--layout, .more-features .feature-item, .more-features .feature-item:nth-child(2), .pre-cta--wrapper {
         display: flex;
         flex-direction: column;
     }
@@ -6192,11 +6196,32 @@ sup {
         flex: 0 0 0;
         margin-right: 0;
     }
-    .feature-section--item .image-wrapper, .feature-section--item .content-wrapper {
+    .feature-section--item .image-wrapper, .feature-section--item .content-wrapper, .features-tab--layout .content-container .content-wrapper .image-wrapper, .features-tab--layout .content-container .content-wrapper .copy-wrapper, .features-tab--layout .content-container {
         width: 100%;
+    }
+    .features-tab--layout {
+        padding: 0;
+        padding-top: 40px;
+        margin: 0;
+        align-items: flex-start;
+    }
+    .features-tab--layout .nav {
+        display: grid !important;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 2.5rem;
+    }
+    .more-features .feature-item {
+        gap: 40px;
+        padding: 0;
     }
     .section-posts {
         padding: 48px 0 24px;
+    }
+    .pre-cta--wrapper {
+        gap: 30px;
+        padding-bottom: 0;
     }
     .pre-cta--wrapper .content-wrap {
         max-width: 100%;
@@ -6204,7 +6229,10 @@ sup {
     .pre-cta--wrapper .content-wrap .large-text {
         font-size: 2rem;
     }
-    .cta-input--wrap .cta-input--small, .cta-input--wrap .cta-input {
+    .pre-cta--wrapper .image-wrapper {
+        position: relative;
+    }
+    .cta-input--wrap .cta-input--small, .cta-input--wrap .cta-input, .more-features .feature-item .image-wrapper, .more-features .feature-item .copy-wrapper {
         width: 100%;
     }
     .referral-image--wrapper .referral-image {

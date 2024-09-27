@@ -18,10 +18,10 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap wow fadeInUp" data-wow-delay=".2s">
-                            <h2 class="large-text">We're building a bank, together</h2>
-                            <h3 class="small-text">By solving your problems, treating you fairly and being totally transparent, we believe we can make banking better.</h3>
+                            <h2 class="large-text">We're fostering a movement toward financial freedom and inclusivity.</h2>
+                            <h3 class="small-text">Raiz Finance isn't just about providing financial services; it's about creating an ecosystem where financial empowerment is accessible to everyone.</h3>
                             <div class="mb-4 pt-3">
-                                <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
+                                <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn">
                                     <div class="text-move--wrapper">
                                         <div class="text-move">
                                             <div class="button-text">Try Raiz now</div>
@@ -55,11 +55,11 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="intro-grid">
-                            <h2 class="large-text wow fadeInUp" data-wow-delay=".15s">Get in control of your finances. We will help you, it's our mission.</h2>
+                            <h2 class="large-text wow fadeInUp" data-wow-delay=".15s">We are solving for the financial yearning of the people.</h2>
                             <div class="text-wrapper">
                                 <div class="small-text wow fadeInUp" data-wow-delay=".2s">
-                                Fifteen years ago, not all businesses could accept credit cards. Square set out to change that — inventing the first mobile card reader of its kind. This allowed businesses to take payments anywhere and keep thriving in the economy. It also completely disrupted how the financial system thinks about small businesses. With this shift, Square's journey took off — moving far beyond its origins as a payment processor to building new tools and solutions for the future.</div>
-                                <div class="small-text wow fadeInUp" data-wow-delay=".3s">Through a combination of personalised finance, including spending tracker, gamified learning, customized cards, and frequent rewards, Raiz's tools will empower you to live a healthier financial lifestyle.</div>
+                                We envisioned Raiz as more than just another financial platform. It's a community-driven solution designed to empower individuals with the tools they need to take control of their financial lives. We're solving problems like high remittance fees with our USD Banking, offering quick and fair Payday Loans for those unexpected expenses, and helping people set and achieve Savings Goals seamlessly. Our Community Savings or Ajo fosters collective financial growth, and our Swaps, Virtual & Physical Cards, and Budget & Analytics tools provide a holistic approach to personal finance.</div>
+                                <div class="small-text wow fadeInUp" data-wow-delay=".3s">We aim to make finance simple, inclusive, and truly supportive of people's daily lives. With Raiz, we're not just building a company; we're fostering a movement toward financial freedom and inclusivity.</div>
                             </div>
                         </div>
                     </div>

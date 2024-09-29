@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>About us | Raiz</title>
+        <title>About Us | Raiz</title>
 
         <?php include('modules/header-info.php'); ?>
     </head>
@@ -158,17 +158,6 @@
         <?php
             include('modules/footer.php');
         ?>
-
-        <!-- Accept Cookies -->
-        <div class="cp-card" id="cp-card">
-            <img src="assets/images/cookie.svg" class="cp-image" alt="">
-            <p class="cp-title">We use cookies</p>
-            <p class="cp-text">To enable essential and secure site functionality and performance. By clicking “Agree”, you consent to our <a target="_blank" rel="nofollow" title="Cookie Policy" href="/cookie-policy">Cookie Policy</a>. You may change your settings at any time.</p>
-            <div class="cp-action">
-                <button type="button" class="cp-button">Decline</button>
-                <button type="button" class="cp-button accept">Yum! I Agree</button>
-            </div>
-        </div>
 
         <?php
             include('modules/modals.php');

@@ -86,3 +86,14 @@
         </div>
     </div>
 </section>
+
+<!-- Accept Cookies -->
+<div class="cp-card" id="cp-card">
+    <img src="assets/images/cookie.svg" class="cp-image" alt="">
+    <p class="cp-title">Choose your cookies</p>
+    <p class="cp-text">Cookies help us to enhance your experience, tailor ads to your interests, and improve our website. <a target="_blank" rel="nofollow" title="Cookie Policy" href="/cookie-policy">Learn more and manage</a>.</p>
+    <div class="cp-action">
+        <button type="button" class="cp-button accept">Yum! I Agree</button>
+        <button type="button" class="cp-button">Decline</button>
+    </div>
+</div>

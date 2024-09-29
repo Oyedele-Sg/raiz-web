@@ -34,8 +34,8 @@
                         </div>
                     </div>
                     <div class="col-lg-5 offset-md-1 col-sm-12">
-                        <div class="main-image--wrapper">
-                            <img src="assets/images/image-breaker-1.webp" class="main-image" alt=""/>
+                        <div class="main-image--wrapper wow fadeInUp" data-wow-delay=".35s">
+                            <img src="assets/images/savings-goals.webp" class="main-image" alt="Savings Goals"/>
                         </div>
                     </div>
                 </div>
@@ -47,36 +47,36 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap">
-                            <h2 class="large-text"><span class="text-cursive">Raiz</span> your savings.</h2>
-                            <p class="small-text">Reach Your Financial Goals Faster with Raiz</p>
+                            <h2 class="large-text wow fadeInUp" data-wow-delay=".2s"><span class="text-cursive">Raiz</span> your savings.</h2>
+                            <p class="small-text wow fadeInUp" data-wow-delay=".3s">Reach Your Financial Goals Faster with Raiz</p>
                         </div>
                         
                         <div class="feature-item--wrapper">
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Customizable Goal Setting">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".4s">
+                                    <img class="image" src="assets/images/custom-goal-setting.webp" alt="Customizable Goal Setting">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".45s">
                                     <div class="large-text">Customizable Goal Setting</div>
                                     <div class="small-text">Define and personalize your savings goals with flexible options. Set specific targets, deadlines, and amounts to match your unique financial aspirations.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Progress Tracking">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                    <img class="image" src="assets/images/progress-tracking.webp" alt="Progress Tracking">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".55s">
                                     <div class="large-text">Progress Tracking</div>
                                     <div class="small-text">Monitor your savings journey with real-time updates. Our progress tracking feature shows how close you are to reaching your goal, helping you stay motivated and on track.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automated Savings Plans">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".6s">
+                                    <img class="image" src="assets/images/auto-saving.webp" alt="Automated Savings Plans">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".65s">
                                     <div class="large-text">Automated Savings Plans</div>
                                     <div class="small-text">Simplify saving with automated contributions. Set up recurring transfers to your savings goal, ensuring consistent progress without having to remember to save manually.</div>
                                 </div>
@@ -91,7 +91,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-sm-12">
-                        <img src="assets/images/hero-art.png" class="hero-bg-image" alt=""/>
+                        <img src="assets/images/faq-image.png" class="hero-bg-image wow fadeInUp" data-wow-delay=".2s" alt="FAQ Image"/>
                     </div>
                     <div class="col-lg-6 col-sm-12 offset-lg-1">
                         <div class="section-title wow fadeInUp" data-wow-delay=".1s">
@@ -138,11 +138,6 @@
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
                                         <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
-                                        <!-- <ul>
-                                            <li>Set up regular pocket money transfers</li>
-                                            <li>Make instant one-off payments to your child</li>
-                                            <li>Set tasks for them to earn a little more</li>
-                                        </ul> -->
                                     </div>
                                 </div>
                             </div>
@@ -200,17 +195,6 @@
         <?php
             include('modules/footer.php');
         ?>
-
-        <!-- Accept Cookies -->
-        <div class="cp-card" id="cp-card">
-            <img src="assets/images/cookie.svg" class="cp-image" alt="">
-            <p class="cp-title">We use cookies</p>
-            <p class="cp-text">To enable essential and secure site functionality and performance. By clicking “Agree”, you consent to our <a target="_blank" rel="nofollow" title="Cookie Policy" href="/cookie-policy">Cookie Policy</a>. You may change your settings at any time.</p>
-            <div class="cp-action">
-                <button type="button" class="cp-button">Decline</button>
-                <button type="button" class="cp-button accept">Yum! I Agree</button>
-            </div>
-        </div>
 
         <?php
             include('modules/modals.php');

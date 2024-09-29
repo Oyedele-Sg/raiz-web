@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <img src="assets/images/hero-bg-image.webp" class="hero-bg-image" alt=""/>
+                        <img src="assets/images/hero-bg-image.webp" class="hero-bg-image wow fadeInUp" data-wow-delay=".35s" alt="Hero Image"/>
                     </div>
                 </div>
                 <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Hope Payment Service Bank.</div>
@@ -237,36 +237,36 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap">
-                            <h2 class="large-text"><span class="text-cursive">Raizing</span> the bar in banking.</h2>
-                            <p class="small-text">Take control of your finances. Earn cashback, get paid early, and split bills with ease. Raiz puts you in charge.</p>
+                            <h2 class="large-text wow fadeInUp" data-wow-delay=".2s"><span class="text-cursive">Raizing</span> the bar in banking.</h2>
+                            <p class="small-text wow fadeInUp" data-wow-delay=".3s">Take control of your finances. Earn cashback, get paid early, and split bills with ease. Raiz puts you in charge.</p>
                         </div>
                         
                         <div class="feature-item--wrapper">
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".4s">
+                                    <img class="image" src="assets/images/reach-financial-goals.webp" alt="Reach your financial goals faster">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".45s">
                                     <div class="large-text">Reach your financial goals faster</div>
                                     <div class="small-text">Set personalized savings goals, track progress, and automate transfers to watch your money grow effortlessly.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                    <img class="image" src="assets/images/hasslefree-bill-splitting.webp" alt="Hassle-free bill splitting with friends">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".55s">
                                     <div class="large-text">Hassle-free bill splitting with friends</div>
                                     <div class="small-text">Settling bills with your friends is now easy. Split evenly or vary the amounts for people who've contributed more.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Automatically save and invest with Round-Ups® feature">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".6s">
+                                    <img class="image" src="assets/images/take-control-of-your-spending.webp" alt="Take control of your spending and Raiz your money game">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".65s">
                                     <div class="large-text">Take control of your spending and Raiz your money game</div>
                                     <div class="small-text">Track spending, create budgets, and gain valuable insights to make informed financial decisions.</div>
                                 </div>
@@ -274,10 +274,10 @@
                         </div>
 
                         <div class="db-card--grid">
-                            <div class="card-image--wrapper wow fadeInUp" data-wow-delay=".2s">
+                            <div class="card-image--wrapper wow fadeInUp" data-wow-delay=".7s">
                                 <img src="assets/images/raiz-card-grouped-edited.webp" loading="lazy" alt="" class="card-image">
                             </div>
-                            <div class="card-content--wrapper wow fadeInUp" data-wow-delay=".25s">
+                            <div class="card-content--wrapper wow fadeInUp" data-wow-delay=".75s">
                                 <div class="card-content">
                                     <h3 class="large-text"><span class="">Spend in style</span> every day</h3>
                                     <p class="body-text">Vibrant contactless Raiz Debit card to make payments anywhere in the world. Physical or virtual, choose what suits you.</p>
@@ -285,22 +285,22 @@
                             </div>
                             <div class="card-features--wrapper">
                                 <div class="card-features">
-                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".8s">
                                         <img src="assets/images/icons/withdrawal-icon.svg" loading="lazy" alt="" class="card-icon">
                                         <h3 class="card-heading">Withdrawals</h3>
                                         <p class="card-text">Cash withdrawal at 25,000 ATMs worldwide.</p>
                                     </div>
-                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".35s">
+                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".85s">
                                         <img src="assets/images/icons/lock-icon.svg" loading="lazy" alt="" class="card-icon">
                                         <div class="card-heading">Freeze or Lock</div>
                                         <p class="card-text">Keep your money safe with freezing or locking functions.</p>
                                     </div>
-                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".9s">
                                         <img src="assets/images/icons/cashback-icon.svg" loading="lazy" alt="" class="card-icon">
                                         <div class="card-heading">Earn Cashbacks</div>
                                         <p class="card-text">Get rewarded for using your Raiz debit card.</p>
                                     </div>
-                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".45s">
+                                    <div class="card-features--list wow fadeInUp" data-wow-delay=".95s">
                                         <img src="assets/images/icons/shop-online-icon.svg" loading="lazy" alt="" class="card-icon">
                                         <div class="card-heading">Shop Online Securely</div>
                                         <p class="card-text">Enjoy added security with your Raiz debit card.</p>
@@ -318,22 +318,22 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="why-grid">
-                            <div class="why-item">
+                            <div class="why-item wow fadeInUp" data-wow-delay=".3s">
                                 <img src="assets/images/icons/facelock-icon.svg" loading="lazy" alt="Safe Log In" class="svg-icon">
                                 <div class="large-text">Safe Log In</div>
                                 <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
                             </div>
-                            <div class="why-item">
+                            <div class="why-item wow fadeInUp" data-wow-delay=".4s">
                                 <img src="assets/images/icons/identity-check-icon.svg" loading="lazy" alt="Identity Check" class="svg-icon">
                                 <div class="large-text">Identity Check</div>
                                 <p class="small-text">To ensure it's really you, we ask for a government-issued ID with your photo, plus a liveness check.</p>
                             </div>
-                            <div class="why-item">
+                            <div class="why-item wow fadeInUp" data-wow-delay=".5s">
                                 <img src="assets/images/icons/always-safe-icon.svg" loading="lazy" alt="Always Safe" class="svg-icon">
                                 <div class="large-text">Always Safe</div>
                                 <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
                             </div>
-                            <div class="why-item">
+                            <div class="why-item wow fadeInUp" data-wow-delay=".6s">
                                 <img src="assets/images/icons/notifications-icon.svg" loading="lazy" alt="" class="svg-icon">
                                 <div class="large-text">Notifications</div>
                                 <p class="small-text">Get instant notifications every time you spend with your card.</p>
@@ -347,17 +347,6 @@
         <?php
             include('modules/footer.php');
         ?>
-
-        <!-- Accept Cookies -->
-        <div class="cp-card" id="cp-card">
-            <img src="assets/images/cookie.svg" class="cp-image" alt="">
-            <p class="cp-title">Choose your cookies</p>
-            <p class="cp-text">Cookies help us to enhance your experience, tailor ads to your interests, and improve our website. <a target="_blank" rel="nofollow" title="Cookie Policy" href="/cookie-policy">Learn more and manage</a>.</p>
-            <div class="cp-action">
-                <button type="button" class="cp-button accept">Yum! I Agree</button>
-                <button type="button" class="cp-button">Decline</button>
-            </div>
-        </div>
 
         <?php
             include('modules/modals.php');

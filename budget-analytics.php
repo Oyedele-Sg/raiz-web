@@ -100,14 +100,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".1s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                    <span>What is USD banking, and why should I use it?</span>
+                                    <span>What is the Budget and Analytics feature?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseOne" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>USD banking allows you to hold, save, and transact in U.S. dollars, which helps protect your savings from local currency fluctuations and provides easier access to international markets.</p>
+                                        <p>The Budget and Analytics feature helps you manage your finances by tracking your income, expenses, and spending habits. It provides insights and visual reports to help you better understand and control your financial health.</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,14 +115,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".15s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    <span>How do I convert my local currency to USD in Raiz Finance?</span>
+                                    <span>How does the Budget feature work?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseTwo" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>You can convert your local currency to USD by using the currency exchange feature in your dashboard. Select the amount and confirm the transaction.</p>
+                                        <p>The Budget feature allows you to set spending limits for different categories, such as groceries, entertainment, or transportation. You can then track your expenses in real-time and receive alerts when you approach or exceed your budget.</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,14 +130,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".2s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                    <span>Are there any limits on USD transactions?</span>
+                                    <span>Can I customize my budget categories?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
+                                        <p>Yes, you can fully customize your budget categories to match your spending habits. You can create new categories or modify existing ones to fit your needs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -145,14 +145,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".25s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                                    <span>How secure are my USD deposits with Raiz Finance?</span>
+                                    <span>What kind of analytics does the feature provide?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFour" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Raiz Finance uses top-tier encryption and complies with international banking regulations to ensure your USD deposits are secure.</p>
+                                        <p>The Analytics feature offers detailed insights into your spending patterns, including visual charts and graphs that show where your money is going, how much you're saving, and any trends in your financial behavior over time.</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,14 +160,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".3s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                    <span>Can I receive international payments in my USD account?</span>
+                                    <span>Can I link the Budget and Analytics feature to my bank accounts?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFive" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, you can receive international payments directly into your Raiz Finance USD account.</p>
+                                        <p>Yes, you can link your bank accounts to the Budget and Analytics feature to automatically track transactions. This ensures accurate and real-time updates on your spending and savings.</p>
                                     </div>
                                 </div>
                             </div>
@@ -175,14 +175,74 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".35s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                                    <span>What are the fees associated with USD banking?</span>
+                                    <span>Is there a limit on the number of accounts I can link?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseSix" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Fees vary depending on the type of transaction. You can find a detailed breakdown of fees on our Pricing page.</p>
+                                        <p>The number of accounts you can link may depend on your account type or subscription plan. Check your account settings to find out if there are any limits.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".4s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                    <span>Will I get notifications if I exceed my budget?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseSeven" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, the platform sends notifications if you are close to exceeding or have already exceeded your budget. This helps you stay informed and make adjustments to your spending if needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".45s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    <span>Can I track my income and expenses in different currencies?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseEight" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, the Budget and Analytics feature supports multiple currencies, making it easy to track income and expenses across different countries or currencies if necessary.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                    <span>How secure is my financial data in the Budget and Analytics feature?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseNine" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Raiz uses advanced encryption and security protocols to protect your financial data. Your linked accounts and personal information are kept secure, and no unauthorized parties have access to your data.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".55s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                    <span>Can I download or export my budget and spending data?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseTen" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, you can export your budget and spending reports in formats like CSV or PDF for external use or to share with financial advisors. This feature allows you to keep a backup or further analyze your data outside the app.</p>
                                     </div>
                                 </div>
                             </div>

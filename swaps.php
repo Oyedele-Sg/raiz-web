@@ -139,14 +139,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".1s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                    <span>What is USD banking, and why should I use it?</span>
+                                    <span>What are swaps in Raiz Finance?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseOne" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>USD banking allows you to hold, save, and transact in U.S. dollars, which helps protect your savings from local currency fluctuations and provides easier access to international markets.</p>
+                                        <p>Swaps allow you to exchange currencies or digital assets with other users on the Raiz Finance platform, providing flexibility in managing your portfolio.</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +154,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".15s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    <span>How do I convert my local currency to USD in Raiz Finance?</span>
+                                    <span>How do I initiate a swap transaction?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseTwo" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>You can convert your local currency to USD by using the currency exchange feature in your dashboard. Select the amount and confirm the transaction.</p>
+                                        <p>You can initiate a swap by selecting the Swap option in your dashboard, choosing the assets or currencies you want to exchange, and confirming the trade.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,19 +169,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".2s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                    <span>Are there any limits on USD transactions?</span>
+                                    <span>Are there any fees for conducting swaps?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
-                                        <!-- <ul>
-                                            <li>Set up regular pocket money transfers</li>
-                                            <li>Make instant one-off payments to your child</li>
-                                            <li>Set tasks for them to earn a little more</li>
-                                        </ul> -->
+                                        <p>Yes, Raiz Finance charges a small fee for each swap transaction. Details are available on the Pricing page.</p>
                                     </div>
                                 </div>
                             </div>
@@ -189,14 +184,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".25s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                                    <span>How secure are my USD deposits with Raiz Finance?</span>
+                                    <span>What types of assets can I swap?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFour" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Raiz Finance uses top-tier encryption and complies with international banking regulations to ensure your USD deposits are secure.</p>
+                                        <p>You can swap various currencies, including USD and local currencies, as well as digital assets supported by Raiz Finance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,14 +199,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".3s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                    <span>Can I receive international payments in my USD account?</span>
+                                    <span>How long does it take for a swap transaction to complete?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFive" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, you can receive international payments directly into your Raiz Finance USD account.</p>
+                                        <p>Swap transactions are typically completed instantly, but some may take longer depending on the assets involved.</p>
                                     </div>
                                 </div>
                             </div>
@@ -219,14 +214,74 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".35s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                                    <span>What are the fees associated with USD banking?</span>
+                                    <span>Can I cancel a swap transaction after it's been initiated?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseSix" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Fees vary depending on the type of transaction. You can find a detailed breakdown of fees on our Pricing page.</p>
+                                        <p>Once a swap transaction is confirmed, it cannot be canceled. Please review all details carefully before confirming.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".4s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                    <span>How do I track the status of my swaps?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseSeven" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>You can track the status of your swaps in real time on your dashboard, where all transactions are listed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".45s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    <span>What are the benefits of using swaps?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseEight" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Swaps offer flexibility in managing your finances, allowing you to quickly adjust your holdings without having to go through traditional banking processes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                    <span>Are swaps secure on the Raiz Finance platform?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseNine" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, all swap transactions are conducted securely using Raiz Finance's encrypted platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".55s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                    <span>Can I set up automatic swaps?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseTen" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Currently, swaps must be initiated manually, but future updates may include automated options.</p>
                                     </div>
                                 </div>
                             </div>

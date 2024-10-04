@@ -100,14 +100,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".1s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                    <span>What is USD banking, and why should I use it?</span>
+                                    <span>How do I set up a savings goal with Raiz Finance?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseOne" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>USD banking allows you to hold, save, and transact in U.S. dollars, which helps protect your savings from local currency fluctuations and provides easier access to international markets.</p>
+                                        <p>You can set up a savings goal by navigating to the Savings Goals section in your dashboard, choosing a target amount, and specifying your timeline.</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,14 +115,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".15s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    <span>How do I convert my local currency to USD in Raiz Finance?</span>
+                                    <span>Can I have multiple savings goals at once?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseTwo" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>You can convert your local currency to USD by using the currency exchange feature in your dashboard. Select the amount and confirm the transaction.</p>
+                                        <p>Yes, Raiz Finance allows you to set up and track multiple savings goals simultaneously, each with its own target and timeline.</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,14 +130,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".2s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                    <span>Are there any limits on USD transactions?</span>
+                                    <span>AWhat happens if I reach my savings goal ahead of schedule?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
+                                        <p>If you reach your savings goal early, you can either withdraw your savings, extend your goal, or set a new target.</p>
                                     </div>
                                 </div>
                             </div>
@@ -145,14 +145,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".25s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                                    <span>How secure are my USD deposits with Raiz Finance?</span>
+                                    <span>Are my savings goals protected? </span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFour" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Raiz Finance uses top-tier encryption and complies with international banking regulations to ensure your USD deposits are secure.</p>
+                                        <p>Yes, your savings are secured and insured, with funds held in segregated accounts to ensure their safety.</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,14 +160,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".3s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                    <span>Can I receive international payments in my USD account?</span>
+                                    <span>Can I change my savings goal after I've set it?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFive" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, you can receive international payments directly into your Raiz Finance USD account.</p>
+                                        <p>Yes, you can adjust your savings goal, including the target amount and timeline, directly from your dashboard.</p>
                                     </div>
                                 </div>
                             </div>
@@ -175,14 +175,74 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".35s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                                    <span>What are the fees associated with USD banking?</span>
+                                    <span>How do I track my progress towards my savings goal?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseSix" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Fees vary depending on the type of transaction. You can find a detailed breakdown of fees on our Pricing page.</p>
+                                        <p>Your progress is tracked in real-time on your dashboard, where you can see how much you've saved and how close you are to your goal.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".4s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                    <span>Are there any fees associated with setting up a savings goal?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseSeven" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Setting up a savings goal is free. However, there may be fees for certain transactions, which are outlined in our Pricing section.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".45s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    <span>What types of savings goals can I create?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseEight" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>You can create savings goals for anything, from buying a car to planning a vacation or building an emergency fund.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                    <span>Can I withdraw funds from my savings goal before reaching it? </span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseNine" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, you can withdraw funds early if needed, though this may affect your ability to reach your goal on time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".55s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                    <span>Is there a minimum amount required to start a savings goal?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseTen" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>There's no minimum amount to start a savings goal, making it accessible for everyone to begin saving.</p>
                                     </div>
                                 </div>
                             </div>

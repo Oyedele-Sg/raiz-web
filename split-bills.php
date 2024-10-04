@@ -139,14 +139,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".1s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                    <span>What is USD banking, and why should I use it?</span>
+                                    <span>What is the Split Bills with Friends feature?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseOne" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>USD banking allows you to hold, save, and transact in U.S. dollars, which helps protect your savings from local currency fluctuations and provides easier access to international markets.</p>
+                                        <p>The Split Bills with Friends feature allows you to divide and share expenses among friends or family, making it easier to settle group payments like dinners, trips, or shared services.</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +154,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".15s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    <span>How do I convert my local currency to USD in Raiz Finance?</span>
+                                    <span>How do I use the Split Bills feature?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseTwo" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>You can convert your local currency to USD by using the currency exchange feature in your dashboard. Select the amount and confirm the transaction.</p>
+                                        <p>You can use the Split Bills feature by selecting the transaction you want to split, choosing the friends or contacts to share the bill with, and setting the amount each person should pay. The app will then send a request to each person.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,19 +169,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".2s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                    <span>Are there any limits on USD transactions?</span>
+                                    <span>Do my friends need to have an account to split bills?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
-                                        <!-- <ul>
-                                            <li>Set up regular pocket money transfers</li>
-                                            <li>Make instant one-off payments to your child</li>
-                                            <li>Set tasks for them to earn a little more</li>
-                                        </ul> -->
+                                        <p>Yes, your friends need to have an account on the platform to participate in the Split Bills feature. They will receive a notification or request to pay their portion of the bill.</p>
                                     </div>
                                 </div>
                             </div>
@@ -189,14 +184,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".25s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                                    <span>How secure are my USD deposits with Raiz Finance?</span>
+                                    <span>Can I split the bill unevenly?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFour" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Raiz Finance uses top-tier encryption and complies with international banking regulations to ensure your USD deposits are secure.</p>
+                                        <p>Yes, the Split Bills feature allows you to customize the amount each person pays, so you can split the bill evenly or assign different amounts to each participant.</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,14 +199,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".3s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                    <span>Can I receive international payments in my USD account?</span>
+                                    <span>Is there a limit to the number of people I can split a bill with?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFive" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, you can receive international payments directly into your Raiz Finance USD account.</p>
+                                        <p>The number of people you can split a bill with may vary depending on your account type or platform limits. You can check your account settings for specific limits on the number of participants.</p>
                                     </div>
                                 </div>
                             </div>
@@ -219,14 +214,74 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".35s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                                    <span>What are the fees associated with USD banking?</span>
+                                    <span>What happens if someone doesn't pay their portion?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseSix" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Fees vary depending on the type of transaction. You can find a detailed breakdown of fees on our Pricing page.</p>
+                                        <p>If someone doesn't pay their portion, you will receive a notification about the pending payment. It is up to you to follow up with them, as the platform does not enforce payments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".4s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                    <span>Can I split bills with friends who are in different countries?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseSeven" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, you can split bills with friends in different countries, provided they have an account on the platform. Currency conversion may apply depending on the region.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".45s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    <span>Are there any fees for using the Split Bills feature?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseEight" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>The Split Bills feature is generally free to use, but there may be small transaction fees depending on your payment method or location. Check the platform's terms for detailed fee structures.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                    <span>Can I cancel a bill after splitting it?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseNine" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, you can cancel the split request before all participants have paid their portions. Once the bill is canceled, any pending requests will be voided.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".55s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                    <span>How do I track who has paid their share of the bill?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseTen" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>The app will keep track of who has paid their portion of the bill and send you updates. You can also view the payment status in the transaction history under the "Split Bills" section.</p>
                                     </div>
                                 </div>
                             </div>

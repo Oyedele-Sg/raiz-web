@@ -139,14 +139,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".1s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                    <span>What is USD banking, and why should I use it?</span>
+                                    <span>What is a Virtual Card?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseOne" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>USD banking allows you to hold, save, and transact in U.S. dollars, which helps protect your savings from local currency fluctuations and provides easier access to international markets.</p>
+                                        <p>A Virtual Card is a digital card that can be used for online purchases and transactions. It functions like a physical card but exists only in digital form.</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +154,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".15s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    <span>How do I convert my local currency to USD in Raiz Finance?</span>
+                                    <span>How does the Virtual Card work?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseTwo" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>You can convert your local currency to USD by using the currency exchange feature in your dashboard. Select the amount and confirm the transaction.</p>
+                                        <p>The Virtual Card works like a regular card. You can enter the card details such as card number, expiration date, and CVV to make online purchases.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,14 +169,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".2s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                    <span>Are there any limits on USD transactions?</span>
+                                    <span>What is a Physical Card?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
+                                        <p>A Physical Card is a tangible debit or credit card that you can use for both online and in-person transactions, including ATM withdrawals.</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,14 +184,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".25s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                                    <span>How secure are my USD deposits with Raiz Finance?</span>
+                                    <span>How do I request a Virtual or Physical Card?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFour" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Raiz Finance uses top-tier encryption and complies with international banking regulations to ensure your USD deposits are secure.</p>
+                                        <p>You can request a Virtual or Physical Card by logging into your account on our platform, navigating to the "Cards" section, and following the instructions to generate a Virtual Card or request the delivery of a Physical Card.</p>
                                     </div>
                                 </div>
                             </div>
@@ -199,14 +199,14 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".3s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                    <span>Can I receive international payments in my USD account?</span>
+                                    <span>Can I use my Virtual Card for international transactions?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseFive" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Yes, you can receive international payments directly into your Raiz Finance USD account.</p>
+                                        <p>Yes, the Virtual Card can be used for international transactions, as long as the merchant accepts the card network (e.g., Visa, MasterCard).</p>
                                     </div>
                                 </div>
                             </div>
@@ -214,14 +214,74 @@
                         <div class="single-faq wow fadeInUp" data-wow-delay=".35s">
                             <div class="accordion">
                                 <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                                    <span>What are the fees associated with USD banking?</span>
+                                    <span>Is there a fee for getting a Virtual or Physical Card?</span>
                                     <span class="icon flex-shrink-0">
                                         <i class="lni lni-chevron-down"></i>
                                     </span>
                                 </button>
                                 <div id="collapseSix" class="accordion-collapse collapse">
                                     <div class="faq-body">
-                                        <p>Fees vary depending on the type of transaction. You can find a detailed breakdown of fees on our Pricing page.</p>
+                                        <p>The Virtual Card is typically free, but a small fee may be charged for the Physical Card to cover production and shipping costs. Please refer to our pricing section for specific details.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".4s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                    <span>What should I do if my Physical Card is lost or stolen?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseSeven" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>If your Physical Card is lost or stolen, you should immediately report it via the app or contact customer support to block the card and request a replacement.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".45s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    <span>Can I link both the Virtual and Physical Cards to the same account?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseEight" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, you can link both your Virtual and Physical Cards to the same account and manage them seamlessly through our platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                    <span>What are the spending limits on the Virtual and Physical Cards?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseNine" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Spending limits vary depending on your account type and card. You can check your specific limits in the card settings section of your account.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-faq wow fadeInUp" data-wow-delay=".55s">
+                            <div class="accordion">
+                                <button class="faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                    <span>Can I use the Physical Card at ATMs?</span>
+                                    <span class="icon flex-shrink-0">
+                                        <i class="lni lni-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <div id="collapseTen" class="accordion-collapse collapse">
+                                    <div class="faq-body">
+                                        <p>Yes, the Physical Card can be used to withdraw cash from ATMs that accept the card network (e.g., Visa, MasterCard). Fees may apply based on your bank's terms and conditions.</p>
                                     </div>
                                 </div>
                             </div>

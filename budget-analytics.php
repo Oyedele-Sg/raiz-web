@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Raiz | Money made easy for Kids & Teens</title>
+        <title>Budget & Analytics | Raiz</title>
 
         <?php include('modules/header-info.php'); ?>
     </head>
@@ -34,8 +34,8 @@
                         </div>
                     </div>
                     <div class="col-lg-5 offset-md-1 col-sm-12">
-                        <div class="main-image--wrapper">
-                            <img src="assets/images/image-breaker-1.webp" class="main-image" alt=""/>
+                        <div class="main-image--wrapper wow fadeInUp" data-wow-delay=".35s">
+                            <img src="assets/images/master-your-money-with-smart-budgeting.webp" class="main-image" alt="Budget & Analytics"/>
                         </div>
                     </div>
                 </div>
@@ -47,36 +47,36 @@
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="content-wrap">
-                            <h2 class="large-text"><span class="text-cursive">Smart</span> money moves.</h2>
-                            <p class="small-text">Track, budget, and optimize your finances with ease and insight.</p>
+                            <h2 class="large-text wow fadeInUp" data-wow-delay=".2s"><span class="text-cursive">Smart</span> money moves.</h2>
+                            <p class="small-text wow fadeInUp" data-wow-delay=".3s">Track, budget, and optimize your finances with ease and insight.</p>
                         </div>
                         
                         <div class="feature-item--wrapper">
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Stay on top of your spending">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".4s">
+                                    <img class="image" src="assets/images/stay-on-top-of-your-spending.webp" alt="Stay on top of your spending">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".45s">
                                     <div class="large-text">Stay on top of your spending</div>
                                     <div class="small-text">Monitor your expenses as they happen. Get real-time updates on your spending and compare it against your budget to ensure you stay within your limits.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Tailor your budget to your needs.">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                    <img class="image" src="assets/images/tailor-your-budget-to-your-needs.webp" alt="Tailor your budget to your needs.">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".55s">
                                     <div class="large-text">Tailor your budget to your needs.</div>
                                     <div class="small-text">Create and manage custom budget categories that fit your unique spending patterns. Easily allocate funds to specific areas and adjust as needed to meet your financial goals.</div>
                                 </div>
                             </div>
 
                             <div class="feature-item">
-                                <div class="image-wrapper">
-                                    <img class="image" src="https://sqy7rm.media.zestyio.com/Envoy-Home-CLIR-1.png" alt="Achieve your financial goals">
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay=".6s">
+                                    <img class="image" src="assets/images/achieve-your-financial-goals.webp" alt="Achieve your financial goals">
                                 </div>
-                                <div class="copy-wrapper">
+                                <div class="copy-wrapper wow fadeInUp" data-wow-delay=".65s">
                                     <div class="large-text">Achieve your financial goals</div>
                                     <div class="small-text">Set personal savings and spending goals and track your progress over time. Stay motivated and focused with clear milestones and actionable insights to help you reach your targets.</div>
                                 </div>
@@ -91,7 +91,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-sm-12">
-                        <img src="assets/images/hero-art.png" class="hero-bg-image" alt=""/>
+                        <img src="assets/images/faq-image.png" class="hero-bg-image wow fadeInUp" alt="FAQ Image"/>
                     </div>
                     <div class="col-lg-6 col-sm-12 offset-lg-1">
                         <div class="section-title wow fadeInUp" data-wow-delay=".1s">
@@ -138,11 +138,6 @@
                                 <div id="collapseThree" class="accordion-collapse collapse">
                                     <div class="faq-body">
                                         <p>Yes, transaction limits may apply based on your account type and local regulations. Detailed limits are available in your account settings.</p>
-                                        <!-- <ul>
-                                            <li>Set up regular pocket money transfers</li>
-                                            <li>Make instant one-off payments to your child</li>
-                                            <li>Set tasks for them to earn a little more</li>
-                                        </ul> -->
                                     </div>
                                 </div>
                             </div>
@@ -200,17 +195,6 @@
         <?php
             include('modules/footer.php');
         ?>
-
-        <!-- Accept Cookies -->
-        <div class="cp-card" id="cp-card">
-            <img src="assets/images/cookie.svg" class="cp-image" alt="">
-            <p class="cp-title">We use cookies</p>
-            <p class="cp-text">To enable essential and secure site functionality and performance. By clicking “Agree”, you consent to our <a target="_blank" rel="nofollow" title="Cookie Policy" href="/cookie-policy">Cookie Policy</a>. You may change your settings at any time.</p>
-            <div class="cp-action">
-                <button type="button" class="cp-button">Decline</button>
-                <button type="button" class="cp-button accept">Yum! I Agree</button>
-            </div>
-        </div>
 
         <?php
             include('modules/modals.php');

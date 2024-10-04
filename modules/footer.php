@@ -5,7 +5,7 @@
                 <h2 class="large-text">Get the banking app made for you</h2>
                 <p class="body-text">Transform the way you interact with money, make smarter decisions. Download the app and get raized.</p>
                 <div class="cta-btn--link">
-                    <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
+                    <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
                         <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon">
                         <div class="text-move--wrapper">
                             <div class="text-move">

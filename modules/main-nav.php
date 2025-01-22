@@ -39,7 +39,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a class="dropdown-item" href="payday-loans.php">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,8 +52,8 @@
                                                         <div class="text-subtitle">Access quick cash advances when you need it most</div>
                                                     </div>
                                                 </a>
-                                            </li>
-                                            <li>
+                                            </li> -->
+                                            <!-- <li>
                                                 <a class="dropdown-item" href="savings-goals.php">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,8 +74,8 @@
                                                         <div class="text-subtitle">Set and track your savings goals with ease</div>
                                                     </div>
                                                 </a>
-                                            </li>
-                                            <li>
+                                            </li> -->
+                                            <!-- <li>
                                                 <a class="dropdown-item" href="ajo.php">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@
                                                         <div class="text-subtitle">Join or create savings groups with others</div>
                                                     </div>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a class="dropdown-item" href="swaps.php">
                                                     <div class="icon-wrapper">
@@ -126,7 +126,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a class="dropdown-item" href="split-bills.php">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@
                                                         <div class="text-subtitle">Effortlessly split bills with friends and family</div>
                                                     </div>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a class="dropdown-item" href="budget-analytics.php">
                                                     <div class="icon-wrapper">

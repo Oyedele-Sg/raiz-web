@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Raiz | Seamless banking, personalized savings, and spending—all in one place</title>
+        <title>Raiz | Seamless banking, global transactions, and spending—all in one place</title>
 
         <?php include('modules/header-info.php'); ?>
     </head>
@@ -20,7 +20,7 @@
                         <div class="hero-header wow fadeInUp" data-wow-delay=".2s">
                             <h1 class="hero-title"><span class="text-cursive">Empower</span> your finances with Raiz Finance</h1>
                             <div class="hero-text--wrapper">
-                                <h3 class="hero-subtitle">Seamless banking, personalized savings, and spending—all in one place.</h3>
+                                <h3 class="hero-subtitle">Seamless banking, global transactions, and spending—all in one place.</h3>
                                 <div class="btn-action--wrapper">
                                     <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
                                         <div class="text-move--wrapper">
@@ -46,7 +46,7 @@
                         <img src="assets/images/hero-bg-image.webp" class="hero-bg-image wow fadeInUp" data-wow-delay=".35s" alt="Hero Image"/>
                     </div>
                 </div>
-                <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Hope Payment Service Bank.</div>
+                <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Palmpay Inc Bank.</div>
             </div>
             <!-- <div class="hero-image--background"></div> -->
         </section>
@@ -109,16 +109,22 @@
                                             <span class="tab-text">USD Banking</span>
                                         </div>
                                     </a>
-                                    <a href="#payday-loans" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="payday-loans" aria-selected="false">
-                                        <div class="link-content">
-                                            <img class="tab-icon" src="assets/images/icons/payday-loan-icon.svg" alt="Payday Loans Icon">
-                                            <span class="tab-text">Payday Loans</span>
-                                        </div>
-                                    </a>
                                     <a href="#swap" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="swap" aria-selected="false">
                                         <div class="link-content">
                                             <img class="tab-icon" src="assets/images/icons/swap-icon.svg" alt="Swap Icon">
                                             <span class="tab-text">Swap</span>
+                                        </div>
+                                    </a>
+                                    <a href="#card" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="card" aria-selected="false">
+                                        <div class="link-content">
+                                            <img class="tab-icon" src="assets/images/icons/cashback-icon.svg" alt="Card Icon">
+                                            <span class="tab-text">Virtual Cards</span>
+                                        </div>
+                                    </a>
+                                    <!-- <a href="#payday-loans" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="payday-loans" aria-selected="false">
+                                        <div class="link-content">
+                                            <img class="tab-icon" src="assets/images/icons/payday-loan-icon.svg" alt="Payday Loans Icon">
+                                            <span class="tab-text">Payday Loans</span>
                                         </div>
                                     </a>
                                     <a href="#ajo" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="ajo" aria-selected="false">
@@ -126,7 +132,7 @@
                                             <img class="tab-icon" src="assets/images/icons/ajo-icon.svg" alt="Ajo Icon">
                                             <span class="tab-text">Ajo</span>
                                         </div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
 
@@ -155,7 +161,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="payday-loans" role="tabpanel" aria-labelledby="payday-loans-tab">
+                                    <!-- <div class="tab-pane fade" id="payday-loans" role="tabpanel" aria-labelledby="payday-loans-tab">
                                         <div class="content-wrapper">
                                             <div class="image-wrapper">
                                                 <img src="assets/images/raiz-loans-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
@@ -176,7 +182,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="tab-pane fade" id="swap" role="tabpanel" aria-labelledby="swap-tab">
                                         <div class="content-wrapper">
@@ -201,7 +207,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="ajo" role="tabpanel" aria-labelledby="ajo-tab">
+                                    <!-- <div class="tab-pane fade" id="ajo" role="tabpanel" aria-labelledby="ajo-tab">
                                         <div class="content-wrapper">
                                             <div class="image-wrapper">
                                                 <img src="assets/images/raiz-community-saving-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
@@ -216,6 +222,29 @@
                                                             <div class="text-move">
                                                                 <div class="button-text">Explore Community Savings</div>
                                                                 <div class="button-text is_2">Explore Community Savings</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="tab-pane fade" id="card" role="tabpanel" aria-labelledby="card-tab">
+                                        <div class="content-wrapper">
+                                            <div class="image-wrapper">
+                                                <img src="assets/images/raiz-usd-wallet-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
+                                            </div>
+                                            <div class="copy-wrapper">
+                                                <div class="tagline">Virtual Card</div>
+                                                <h3 class="large-text">Simple, Accessible & Affordable</h3>
+                                                <div class="small-text">Enjoy the freedom to pay for all your favorite subscriptions and online transactions.</div>
+                                                <div class="btn-link--wrapper">
+                                                    <a href="debit-card.php" class="get-app--btn">
+                                                        <div class="text-move--wrapper">
+                                                            <div class="text-move">
+                                                                <div class="button-text">Explore Card</div>
+                                                                <div class="button-text is_2">Explore Card</div>
                                                             </div>
                                                         </div>
                                                     </a>

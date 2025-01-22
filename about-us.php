@@ -58,8 +58,8 @@
                             <h2 class="large-text wow fadeInUp" data-wow-delay=".15s">We are solving for the financial yearning of the people.</h2>
                             <div class="text-wrapper">
                                 <div class="small-text wow fadeInUp" data-wow-delay=".2s">
-                                We envisioned Raiz as more than just another financial platform. It's a community-driven solution designed to empower individuals with the tools they need to take control of their financial lives. We're solving problems like high remittance fees with our USD Banking, offering quick and fair Payday Loans for those unexpected expenses, and helping people set and achieve Savings Goals seamlessly. Our Community Savings or Ajo fosters collective financial growth, and our Swaps, Virtual & Physical Cards, and Budget & Analytics tools provide a holistic approach to personal finance.</div>
-                                <div class="small-text wow fadeInUp" data-wow-delay=".3s">We aim to make finance simple, inclusive, and truly supportive of people's daily lives. With Raiz, we're not just building a company; we're fostering a movement toward financial freedom and inclusivity.</div>
+                                We envisioned Raiz as more than just another financial platform. It's a community-driven solution designed to empower individuals with the tools they need to take control of their financial lives. We're solving global financial inclusion problems like high remittance fees with our multi-currency banking infrastructure that helps reduce that barrier of performing financial operations for individuals and busineses in and out of Africa. Our Community Savings or Ajo fosters collective financial growth, and our Swaps, Virtual & Physical Cards, and Budget & Analytics tools provide a holistic approach to personal finance.</div>
+                                <div class="small-text wow fadeInUp" data-wow-delay=".3s">We aim to make finance simple, inclusive, and truly supportive of people's daily lives. With Raiz, we're not just building a company; we're fostering a movement toward unlocking Africa's untapped potentials.</div>
                             </div>
                         </div>
                     </div>
@@ -68,20 +68,20 @@
                     <div class="col-lg-12 col-sm-12">
                         <div class="intro-numbers--grid">
                             <div class="intro-numbers--item">
-                                <h3 class="intro-numbers--value">25k+</h3>
+                                <h3 class="intro-numbers--value">1k+</h3>
                                 <div class="intro-numbers--text">Total customers</div>
                             </div>
                             <div class="intro-numbers--item">
-                                <h3 class="intro-numbers--value">12+</h3>
+                                <h3 class="intro-numbers--value">10+</h3>
                                 <div class="intro-numbers--text">Multi-currency accounts</div>
                             </div>
                             <div class="intro-numbers--item">
-                                <h3 class="intro-numbers--value">4B</h3>
-                                <div class="intro-numbers--text">individual sales transactions processed in 2023*</div>
+                                <h3 class="intro-numbers--value">$120k+</h3>
+                                <div class="intro-numbers--text">individual sales transactions processed in Q4 2024*</div>
                             </div>
                             <div class="intro-numbers--item">
-                                <h3 class="intro-numbers--value">$209.6B</h3>
-                                <div class="intro-numbers--text">in payments processed in 2023*</div>
+                                <h3 class="intro-numbers--value">N350M+</h3>
+                                <div class="intro-numbers--text">in payments processed in Q4 2024*</div>
                             </div>
                         </div>
                     </div>

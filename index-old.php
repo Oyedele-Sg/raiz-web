@@ -39,7 +39,7 @@
                         <img src="assets/images/hero-art.png" class="hero-bg-image" alt=""/>
                     </div>
                 </div>
-                <div class="disclaimer-text font-size-13 mt-5 lh-165 wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Hope Payment Service Bank.</div>
+                <div class="disclaimer-text font-size-13 mt-5 lh-165 wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Palmpay Inc Bank.</div>
             </div>
             <!-- <div class="hero-image--background"></div> -->
         </section>
@@ -610,17 +610,17 @@
                                 <div class="ud-widget social-widget">
                                     <ul class="ud-widget-socials social-widget--item">
                                         <li>
-                                            <a href="https://twitter.com/#" target="_blank">
+                                            <a href="https://x.com/RaizCompany" target="_blank">
                                                 <i class="fa-brands fa-x-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/#" target="_blank">
+                                            <a href="https://instagram.com/raizdigitalcompany/" target="_blank">
                                                 <i class="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank">
+                                            <a href="https://www.linkedin.com/company/raiz-digital-services-company/" target="_blank">
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
                                         </li>
@@ -630,7 +630,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://fb.me/#" target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=61557956021410" target="_blank">
                                                 <i class="fa-brands fa-facebook"></i>
                                             </a>
                                         </li>
@@ -641,8 +641,8 @@
                     </div>
                     <div class="col-md-12 col-sm-12 mt-4">
                         <p class="disclaimer-text">Raiz Digital Services, Co. <br>300 N Creekview, Suite 205 Newark DE 19711 US.</p>
-                        <p class="disclaimer-text">Raiz Digital Services Company is a data and financial technology company, not a bank. Banking services are provided by licensed banking partners Providus Bank with registered address at 724 Adetokunbo Ademola Street, Victoria Island, Lagos 101241, Lagos, Nigeria. Providus Bank is regulated by the SEC and the CBN. US services are offered by Raiz Digital Services Company with its registered address at 300 N Creekview, Suite 205 Newark DE 19711 US.</p>
-                        <p class="disclaimer-text">†Savings accounts are provided by Providus Bank. Annual percentage yield (APY) of 2% as of 06/16/2022. APY subject to change. No minimum deposit is required to open an account, account is subject to identity verification and no minimum balance is required to obtain any advertised APY. Accounts will not be charged monthly fees.</p>
+                        <p class="disclaimer-text">Raiz Digital Services Company is a data and financial technology company, not a bank. Banking services are provided by licensed banking partners Palmpay Inc with registered address at 20 Opebi Rd, Opebi, Lagos 101233, Nigeria. Palmpay Inc is regulated by the SEC and the CBN. US services are offered by Raiz Digital Services Company with its registered address at 300 N Creekview, Suite 205 Newark DE 19711 US.</p>
+                        <!-- <p class="disclaimer-text">†Savings accounts are provided by Providus Bank. Annual percentage yield (APY) of 2% as of 06/16/2022. APY subject to change. No minimum deposit is required to open an account, account is subject to identity verification and no minimum balance is required to obtain any advertised APY. Accounts will not be charged monthly fees.</p> -->
                         <div class="copyright-text"> © Raiz Digital Services Company <?php echo date("Y"); ?>. All rights reserved. </div>
                     </div>
                 </div>

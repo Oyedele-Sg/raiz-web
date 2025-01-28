@@ -1,0 +1,63 @@
+.contact-form-wrapper,
+.contact-info-wrapper {
+  margin: 20px 0;
+}
+
+.contact-form-wrapper label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form-wrapper button {
+  padding: 10px 20px;
+  background-color: #55098b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form-wrapper button:hover {
+  background-color: #2a264c;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info-item i {
+  font-size: 1.1rem;
+  color: #55098b;
+  margin-right: 10px;
+}
+
+.form-alert {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-alert.success {
+  color: #2a264c;
+}
+
+.form-alert.error {
+  color: red;
+}

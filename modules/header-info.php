@@ -5,6 +5,7 @@
 
 <!--====== Favicon Icon ======-->
 <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
 <!-- ===== All CSS files ===== -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -16,6 +17,7 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="assets/css/raiz.css" />
+<link rel="stylesheet" href="assets/css/contact.css" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">

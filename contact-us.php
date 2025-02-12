@@ -80,6 +80,10 @@
                                             <i class="fas fa-map-marker-alt"></i>
                                             <span>  300 N Creek View Rd, Suite 205, Newark, DE, USA 19711</span>
                                         </div>
+                                        <div class="contact-info-item">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span>  1-11 Commercial Ave, Yaba, Lagos, Nigeria</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

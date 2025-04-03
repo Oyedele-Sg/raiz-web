@@ -95,6 +95,13 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.body-content {
+    position: relative;
+    z-index: 9;
+    /* background-color: #fff; */
+    margin-bottom: 800px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'sk-modernist', sans-serif;
 }
@@ -4981,7 +4988,6 @@ sup {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 16px;
 }
 
 .footer-content .list-links li a {
@@ -4997,6 +5003,7 @@ sup {
 
 .footer-content .list-links li:last-child a {
     border: 0;
+    margin: 0;
 }
 
 .footer-content .copyright-text {
@@ -5004,7 +5011,6 @@ sup {
     font-size: 12px;
     line-height: 120%;
     margin: 0;
-    padding-top: 1.5rem;
 }
 
 .social-widget .social-widget-bordered li a {
@@ -5809,6 +5815,34 @@ sup {
 
 
 /* Footer */
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.footer-cp--legal {
+    border-top: 1px solid rgb(255 255 255 / 10%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+}
+
+.footer-link--cp {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.footer-cp--legal .footer-social--links {
+    margin: 0 0 0 auto;
+}
+
 .ud-footer {
 	background: #fff;
 	padding-bottom: 40px;
@@ -5934,9 +5968,9 @@ sup {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
+    border-radius: 6px;
+    width: 24px;
+    height: 24px;
     border: 1px solid #e8ebfd;
     position: relative;
 }
@@ -5949,7 +5983,7 @@ sup {
     bottom: 0;
     left: 0;
     background-color: #e8ebfd;
-    border-radius: 50%;
+    border-radius: 6px;
     transform: scale(0);
     transition: transform .3s cubic-bezier(0.4, 0, 0, 1);
 }
@@ -5960,8 +5994,8 @@ sup {
 
 .social-widget .social-widget--item .social-link svg {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     transition: fill .3s cubic-bezier(0.4, 0, 0, 1);
 }
 

@@ -2,8 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="section-title--wrap">
-                <h3 class="section-title wow fadeInUp" data-wow-delay=".2s">Blog on teaching your kids about saving money</h3>
-                <a href="https://www.blog.getcheery.io" target="_blank" class="text-orange wow fadeInUp" data-wow-delay=".25s">Explore more cheery on top <i class="lni lni-arrow-right pl-1"></i></a>
+                <h3 class="section-title wow fadeInUp" data-wow-delay=".2s">The latest from Raiz</h3>
             </div>
         </div>
         <div class="row">

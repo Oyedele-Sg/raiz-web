@@ -1,18 +1,69 @@
 <section class="footer-block site-footer">
     <div class="container footer-content">
-        <div class="row pt-4">
-            <div class="col-md-12">
+        <div class="pre-cta--wrapper">
+            <div class="content-wrap">
+                <h2 class="large-text">Get the banking app made for you</h2>
+                <p class="body-text">Transform the way you interact with money, make smarter decisions. Download the app and get raized.</p>
+                <div class="cta-btn--link">
+                    <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
+                        <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon">
+                        <div class="text-move--wrapper">
+                            <div class="text-move">
+                                <div class="button-text">Get the App</div>
+                                <div class="button-text is_2">Get the App</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img src="assets/images/footer-phone.png" loading="lazy" alt="" class="image">
+            </div>
+        </div>
+        
+        <div class="row pt-4 mb-5">
+            <div class="col-md-2">
                 <div class="footer-links--social">
                     <a href="/" class="footer-logo">
                         <img src="assets/images/logo/raiz-logo-white.svg" loading="lazy" alt="" class="footer-logo--image">
                     </a>
                 </div>
             </div>
+            <div class="col-md-10 col-sm-10 mt-4">
+                <div class="footer-nav--lists">
+                    <div class="footer-nav--list">
+                        <h3 class="list-heading">Products</h3>
+                        <a href="/accounts" class="list-link">USD Banking</a>
+                        <a href="/accounts" class="list-link">Swap</a>
+                        <a href="/accounts" class="list-link">Business Banking</a>
+                    </div>
+                    <div class="footer-nav--list">
+                        <h3 class="list-heading">Company</h3>
+                        <a href="#" class="list-link">About us</a>
+                        <a href="#" class="list-link">Careers</a>
+                        <a href="#" class="list-link">Press</a>
+                    </div>
+                    <div class="footer-nav--list">
+                        <h3 class="list-heading">Resources</h3>
+                        <a href="#" class="list-link">Blog</a>
+                        <a href="#" class="list-link">FAQ</a>
+                        <a href="#" class="list-link">Help Center</a>
+                    </div>
+                    <div class="footer-nav--list">
+                        <h3 class="list-heading">Products</h3>
+                        <a href="#" class="list-link">Global Accounts</a>
+                        <a href="#" class="list-link">Global Accounts</a>
+                        <a href="#" class="list-link">Global Accounts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <div class="col-md-2 col-sm-2 mt-4">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
                 <p class="disclaimer-text">Raiz Digital Services, Co. <br>300 N Creekview, Suite 205 Newark DE 19711 US.</p>
             </div>
-            <div class="col-md-10 col-sm-10 mt-4">
+            <div class="col-md-10 col-sm-10">
                 <p class="disclaimer-text">Raiz Digital Services Company is a data and financial technology company, not a bank. Banking services are provided by licensed banking partners Palmpay Inc with registered address at 20 Opebi Road, Opebi, Lagos 101233, Lagos, Nigeria. PalmPay Inc is regulated by the SEC and the CBN. US services are offered by Raiz Digital Services Company with its registered address at 300 N Creekview, Suite 205 Newark DE 19711 US.</p>
                 <p class="disclaimer-text">†Savings accounts are provided by Palmpay Inc. Annual percentage yield (APY) of 2% as of 06/16/2022. APY subject to change. No minimum deposit is required to open an account, account is subject to identity verification and no minimum balance is required to obtain any advertised APY. Accounts will not be charged monthly fees.</p>
             </div>

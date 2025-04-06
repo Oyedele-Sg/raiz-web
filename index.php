@@ -43,9 +43,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12">
+                        <!-- <div class="col-lg-6 col-sm-12">
                             <img src="assets/images/hero-bg-image.webp" class="hero-bg-image wow fadeInUp" data-wow-delay=".35s" alt="Hero Image"/>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Palmpay Inc Bank.</div>
                 </div>
@@ -374,7 +374,109 @@
                 </div>
             </section>
 
-            <section class="pre-cta--block">
+            <section class="customer-ctg">
+                <div class="container">
+                    <div class="customer-ctg--grid">
+                        <a href="#" class="customer-ctg--card">
+                            <div class="image-wrapper">
+                                <div class="bg-overlay"></div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e404350f0be3546f7119a_1.avif"  class="layout-image" width="Auto" alt="Accountants">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content--hidden">
+                                    <div class="card-content--bottom">
+                                        <div class="text-wrapper">
+                                            <h3 class="large-text">Accountant</h3>
+                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                        </div>
+                                        <div class="action-btn--wrapper">
+                                            <div class="action-btn">
+                                                <span>Lean more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
+                                <h4 class="card-heading">Accountant</h4>
+                            </div>
+                        </a>
+
+                        <a href="#" class="customer-ctg--card">
+                            <div class="image-wrapper">
+                                <div class="bg-overlay"></div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e40435c0e0d80f066ed1e_3.avif"  class="layout-image" width="Auto" alt="Accountants">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content--hidden">
+                                    <div class="card-content--bottom">
+                                        <div class="text-wrapper">
+                                            <h3 class="large-text">Accountant</h3>
+                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                        </div>
+                                        <div class="action-btn--wrapper">
+                                            <div class="action-btn">
+                                                <span>Lean more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" alt="">
+                                <h4 class="card-heading">Accountant</h4>
+                            </div>
+                        </a>
+
+                        <a href="#" class="customer-ctg--card">
+                            <div class="image-wrapper">
+                                <div class="bg-overlay"></div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/677bab4df52ba5355c27d0a7_biz-img-1.avif" class="layout-image" width="Auto" alt="Accountants">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content--hidden">
+                                    <div class="card-content--bottom">
+                                        <div class="text-wrapper">
+                                            <h3 class="large-text">Accountant</h3>
+                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                        </div>
+                                        <div class="action-btn--wrapper">
+                                            <div class="action-btn">
+                                                <span>Lean more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
+                                <h4 class="card-heading">Accountant</h4>
+                            </div>
+                        </a>
+
+                        <a href="#" class="customer-ctg--card">
+                            <div class="image-wrapper">
+                                <div class="bg-overlay"></div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e3e9b7928a8d99888a482_4.avif"  class="layout-image" width="Auto" alt="Accountants">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content--hidden">
+                                    <div class="card-content--bottom">
+                                        <div class="text-wrapper">
+                                            <h3 class="large-text">Accountant</h3>
+                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                        </div>
+                                        <div class="action-btn--wrapper">
+                                            <div class="action-btn">
+                                                <span>Lean more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
+                                <h4 class="card-heading">Accountant</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="pre-cta--block">
                 <div class="container">
                     <div class="pre-cta--wrapper">
                         <div class="content-wrap">
@@ -397,7 +499,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
+
+            <?php
+                include('modules/blog-block.php');
+            ?>
         </div>
 
         <?php

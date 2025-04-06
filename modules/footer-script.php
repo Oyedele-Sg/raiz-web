@@ -116,3 +116,30 @@
         document.getElementById('demoVideo').style.display = "none";
     }
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".customer-ctg--card");
+
+    cards.forEach(card => {
+        card.addEventListener("mouseenter", () => {
+        cards.forEach(c => {
+            if (c === card) {
+            c.classList.add("active");
+            c.classList.remove("inactive");
+            } else {
+            c.classList.add("inactive");
+            c.classList.remove("active");
+            }
+        });
+        });
+
+        card.addEventListener("mouseleave", () => {
+        cards.forEach(c => {
+            c.classList.remove("active");
+            c.classList.remove("inactive");
+        });
+        });
+    });
+    });
+</script>
+

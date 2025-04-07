@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="">
                         <img src="assets/images/logo/raiz-logo.svg" alt="Raiz Logo" />
                     </a>
                     <button class="navbar-toggler">
@@ -14,12 +14,9 @@
 
                     <div class="navbar-collapse">
                         <ul id="nav" class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="" href="about-us.php">About Raiz</a>
-                            </li>
                             <li class="nav-item dropdown menu-md">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span>Features</span>
+                                    <span>Personal</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block dropdown-icon block text-grey ml-auto"><polyline points="6 9 12 15 18 9"></polyline></svg>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -93,7 +90,7 @@
                                                 </a>
                                             </li> -->
                                             <li>
-                                                <a class="dropdown-item" href="swaps.php">
+                                                <a class="dropdown-item" href="swaps">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M8.00006 13.869C8.00006 13.098 7.07006 12.71 6.52206 13.253L2.62906 17.109C2.13406 17.6 2.13406 18.4 2.62906 18.891L6.52206 22.747C7.07006 23.29 8.00006 22.902 8.00006 22.131V13.869Z" fill="#869938"/>
@@ -112,7 +109,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item" href="debit-card.php">
+                                                <a class="dropdown-item" href="debit-card">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path opacity="0.35" d="M36.2 38H8.19995C4.88595 38 2.19995 35.314 2.19995 32V12C2.19995 8.686 4.88595 6 8.19995 6H36.2C39.514 6 42.2 8.686 42.2 12V32C42.2 35.314 39.514 38 36.2 38Z" fill="#7160A2"/>
@@ -145,7 +142,7 @@
                                                 </a>
                                             </li> -->
                                             <li>
-                                                <a class="dropdown-item" href="budget-analytics.php">
+                                                <a class="dropdown-item" href="budget-analytics">
                                                     <div class="icon-wrapper">
                                                         <svg class="svg-icon" width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path opacity="0.35" d="M56.1801 29.3334H53.8334V13.3334C53.8334 8.91471 50.2521 5.33337 45.8334 5.33337H19.1667C14.7481 5.33337 11.1667 8.91471 11.1667 13.3334V50.6667C11.1667 55.0854 14.7481 58.6667 19.1667 58.6667H53.8334C56.7801 58.6667 59.1667 56.28 59.1667 53.3334V32.32C59.1667 30.672 57.8281 29.3334 56.1801 29.3334Z" fill="#918B00"/>
@@ -164,6 +161,86 @@
                                         </ul>
                                     </div>
                                 </div>
+                            </li>
+                            <li class="nav-item dropdown menu-md">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span>Business</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block dropdown-icon block text-grey ml-auto"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="nav-menu-list">
+                                        <ul class="nav-menu-content">
+                                            <li>
+                                                <a class="dropdown-item" href="usd-banking.php">
+                                                    <div class="icon-wrapper">
+                                                        <svg class="svg-icon" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.35" d="M27.531 51.5624C40.4163 51.5624 50.862 41.1167 50.862 28.2314C50.862 15.346 40.4163 4.90039 27.531 4.90039C14.6456 4.90039 4.19995 15.346 4.19995 28.2314C4.19995 41.1167 14.6456 51.5624 27.531 51.5624Z" fill="#E4DF7C"/>
+                                                            <path d="M34.4664 33.1447C34.4664 25.5913 26.1285 26.6237 26.1285 22.6865C26.1285 20.368 27.9512 20.1231 28.5812 20.1231C29.2024 20.1231 29.7535 20.2718 30.2202 20.4818C31.3167 20.9775 32.6174 20.5168 33.3115 19.5339C34.201 18.2741 33.7402 16.5038 32.3345 15.871C31.5646 15.5239 30.6022 15.244 29.4357 15.1331V14.0366C29.4357 13.0275 28.6162 12.208 27.6071 12.208C26.598 12.208 25.7785 13.0275 25.7785 14.0366V15.5181C22.7192 16.5388 20.7303 19.3385 20.7303 22.9228C20.7303 30.8495 28.9661 29.4175 28.9661 33.5384C28.9661 34.3316 28.5899 36.061 26.5485 36.061C25.6415 36.061 24.857 35.8044 24.2183 35.4719C23.1363 34.9062 21.7918 35.3232 21.1007 36.3323L21.0278 36.4402C20.2287 37.6067 20.5524 39.2399 21.7802 39.9369C22.8126 40.5231 24.0754 40.9781 25.6006 41.1385V42.4217C25.6006 43.4307 26.4201 44.2502 27.4292 44.2502C28.4383 44.2502 29.2578 43.4307 29.2578 42.4217V40.8089C32.6437 39.7736 34.4664 36.6881 34.4664 33.1447Z" fill="#ECBD45"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text-link--content">
+                                                        <div class="text-title">USD Banking</div>
+                                                        <div class="text-subtitle">Manage your US Dollar finances seamlessly</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="swaps">
+                                                    <div class="icon-wrapper">
+                                                        <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00006 13.869C8.00006 13.098 7.07006 12.71 6.52206 13.253L2.62906 17.109C2.13406 17.6 2.13406 18.4 2.62906 18.891L6.52206 22.747C7.07006 23.29 8.00006 22.902 8.00006 22.131V13.869Z" fill="#869938"/>
+                                                            <path d="M7 20C7 20 13.303 20 14 20C15.105 20 16 19.105 16 18C16 16.895 15.105 16 14 16C13.303 16 7 16 7 16V20Z" fill="#869938"/>
+                                                            <path d="M20 20C21.1046 20 22 19.1046 22 18C22 16.8954 21.1046 16 20 16C18.8954 16 18 16.8954 18 18C18 19.1046 18.8954 20 20 20Z" fill="#869938"/>
+                                                            <g opacity="0.5">
+                                                            <path d="M17.478 10.747L21.371 6.891C21.866 6.4 21.866 5.6 21.371 5.109L17.478 1.253C16.93 0.71 16 1.098 16 1.869V4H10C8.895 4 8 4.895 8 6C8 7.105 8.895 8 10 8H16V10.131C16 10.902 16.93 11.29 17.478 10.747Z" fill="#4936C0"/>
+                                                            </g>
+                                                            <path opacity="0.5" d="M4 8C5.10457 8 6 7.10457 6 6C6 4.89543 5.10457 4 4 4C2.89543 4 2 4.89543 2 6C2 7.10457 2.89543 8 4 8Z" fill="#4936C0"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text-link--content">
+                                                        <div class="text-title">Swaps</div>
+                                                        <div class="text-subtitle">Exchange currencies conveniently and securely</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="debit-card">
+                                                    <div class="icon-wrapper">
+                                                        <svg class="svg-icon" width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.35" d="M36.2 38H8.19995C4.88595 38 2.19995 35.314 2.19995 32V12C2.19995 8.686 4.88595 6 8.19995 6H36.2C39.514 6 42.2 8.686 42.2 12V32C42.2 35.314 39.514 38 36.2 38Z" fill="#7160A2"/>
+                                                            <path d="M41.92 10.28C42.084 10.828 42.2 11.398 42.2 12V32C42.2 35.314 39.514 38 36.2 38H8.19998C7.59798 38 7.02798 37.884 6.47998 37.72C7.22398 40.19 9.48798 42 12.2 42H40.2C43.514 42 46.2 39.314 46.2 36V16C46.2 13.288 44.39 11.024 41.92 10.28Z" fill="#373B4F"/>
+                                                            <path d="M42.2 12H2.19995V18H42.2V12Z" fill="#373B4F"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text-link--content">
+                                                        <div class="text-title">Virtual & Physical Cards</div>
+                                                        <div class="text-subtitle">Choose the card that suits your lifestyle</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="budget-analytics">
+                                                    <div class="icon-wrapper">
+                                                        <svg class="svg-icon" width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.35" d="M56.1801 29.3334H53.8334V13.3334C53.8334 8.91471 50.2521 5.33337 45.8334 5.33337H19.1667C14.7481 5.33337 11.1667 8.91471 11.1667 13.3334V50.6667C11.1667 55.0854 14.7481 58.6667 19.1667 58.6667H53.8334C56.7801 58.6667 59.1667 56.28 59.1667 53.3334V32.32C59.1667 30.672 57.8281 29.3334 56.1801 29.3334Z" fill="#918B00"/>
+                                                            <path d="M39.1666 10.6666H25.8333C23.6226 10.6666 21.8333 8.87463 21.8333 6.66663C21.8333 4.45863 23.6226 2.66663 25.8333 2.66663H39.1666C41.3773 2.66663 43.1666 4.45863 43.1666 6.66663C43.1666 8.87463 41.3773 10.6666 39.1666 10.6666Z" fill="#292D32"/>
+                                                            <path d="M27.1667 18.6666C22.7481 18.6666 19.1667 22.248 19.1667 26.6666C19.1667 31.0853 22.7481 34.6666 27.1667 34.6666C31.5854 34.6666 35.1667 31.0853 35.1667 26.6666H27.1667V18.6666Z" fill="#679C3D"/>
+                                                            <path d="M29.8333 16V24H37.8333C37.8333 19.5813 34.2519 16 29.8333 16Z" fill="#B07F00"/>
+                                                            <path d="M56.4999 26.6666H43.1666C40.2199 26.6666 37.8333 29.0533 37.8333 32V53.3333C37.8333 56.28 40.2199 58.6666 43.1666 58.6666H56.4999C59.4466 58.6666 61.8333 56.28 61.8333 53.3333V32C61.8333 29.0533 59.4466 26.6666 56.4999 26.6666ZM45.8333 53.3333C44.3613 53.3333 43.1666 52.1386 43.1666 50.6666C43.1666 49.1946 44.3613 48 45.8333 48C47.3053 48 48.4999 49.1946 48.4999 50.6666C48.4999 52.1386 47.3053 53.3333 45.8333 53.3333ZM45.8333 45.3333C44.3613 45.3333 43.1666 44.1386 43.1666 42.6666C43.1666 41.1946 44.3613 40 45.8333 40C47.3053 40 48.4999 41.1946 48.4999 42.6666C48.4999 44.1386 47.3053 45.3333 45.8333 45.3333ZM53.8333 53.3333C52.3613 53.3333 51.1666 52.1386 51.1666 50.6666C51.1666 49.1946 52.3613 48 53.8333 48C55.3053 48 56.4999 49.1946 56.4999 50.6666C56.4999 52.1386 55.3053 53.3333 53.8333 53.3333ZM53.8333 45.3333C52.3613 45.3333 51.1666 44.1386 51.1666 42.6666C51.1666 41.1946 52.3613 40 53.8333 40C55.3053 40 56.4999 41.1946 56.4999 42.6666C56.4999 44.1386 55.3053 45.3333 53.8333 45.3333ZM53.8333 37.3333C53.3373 37.3333 46.3293 37.3333 45.8333 37.3333C44.3613 37.3333 43.1666 36.1386 43.1666 34.6666C43.1666 33.1946 44.3613 32 45.8333 32C46.3293 32 53.3373 32 53.8333 32C55.3053 32 56.4999 33.1946 56.4999 34.6666C56.4999 36.1386 55.3053 37.3333 53.8333 37.3333Z" fill="#792D3D"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text-link--content">
+                                                        <div class="text-title">Budget & Analytics</div>
+                                                        <div class="text-subtitle">Track spending, create budgets, and gain insights into your finances</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="about-us">About Raiz</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="" href="#">Why Raiz?🤔</a>

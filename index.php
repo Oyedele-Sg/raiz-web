@@ -7,7 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Raiz | Seamless banking, global transactions, and spending—all in one place</title>
 
-        <?php include('modules/header-info.php'); ?>
+        <?php 
+            include('modules/header-info.php'); 
+            include('modules/config.php'); 
+            include('modules/base.php'); 
+        ?>
+        <base href="<?= $base ?>">
     </head>
 
     <body>
@@ -261,6 +266,8 @@
                 </div>
                 <div class="hero-image--background"></div>
             </section>
+
+            <?php include('modules/video-block.php'); ?>
 
             <section class="more-features">
                 <div class="container">

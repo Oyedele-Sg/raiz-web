@@ -29,7 +29,7 @@
                 </div>
                 <div class="content-col">
                     <div class="text-block">
-                        <h3 class="title-text">FEasy and secure recovery</h3>
+                        <h3 class="title-text">Easy and secure recovery</h3>
                         <p class="des-text">We offer a range of backup options to help you recover your account if you lose access to your keys or device.</p>
                     </div>
                 </div>

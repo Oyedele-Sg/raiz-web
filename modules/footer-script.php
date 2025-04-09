@@ -142,4 +142,83 @@
     });
     });
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".r-features--card");
+
+    function applyExpandedStyles(card) {
+        // Expand main card
+        card.style.flex = "1 1 100%";
+        const svgIcon = card.querySelector(".svg-icon");
+        const largeText = card.querySelector(".large-text");
+        const topText = card.querySelector(".top-text");
+        const bottomText = card.querySelector(".bottom-text");
+        const imageWrapper = card.querySelector(".abl-image--wrapper");
+
+        if (svgIcon) {
+        svgIcon.style.width = "48px";
+        svgIcon.style.height = "48px";
+        }
+        if (largeText) {
+        largeText.style.fontSize = "3.5rem";
+        }
+        if (topText) {
+        topText.style.transform = "none"; // Reset translate
+        }
+        if (bottomText) {
+        bottomText.style.transform = "none"; // Reset translate
+        }
+        if (imageWrapper) {
+        imageWrapper.style.width = "400px"; // Expand image wrapper
+        }
+    }
+
+    function applyShrunkStyles(card) {
+        // Shrink secondary card
+        card.style.flex = "1 1 50%";
+        const svgIcon = card.querySelector(".svg-icon");
+        const largeText = card.querySelector(".large-text");
+        const topText = card.querySelector(".top-text");
+        const bottomText = card.querySelector(".bottom-text");
+        const imageWrapper = card.querySelector(".abl-image--wrapper");
+
+        if (svgIcon) {
+        svgIcon.style.width = "32px";
+        svgIcon.style.height = "32px";
+        }
+        if (largeText) {
+        largeText.style.fontSize = "2.5rem";
+        }
+        if (topText) {
+        topText.style.transform = "translateY(185px) translateZ(0px)";
+        }
+        if (bottomText) {
+        bottomText.style.transform = "translateY(295px) translateZ(0px)";
+        }
+        if (imageWrapper) {
+        imageWrapper.style.width = "0px"; // Collapse image wrapper
+        }
+    }
+
+    // Initial State:
+    applyExpandedStyles(cards[0]);
+    applyShrunkStyles(cards[1]);
+
+    // Hover Logic
+    cards.forEach((card, index) => {
+        card.addEventListener("mouseenter", () => {
+        // Expand the hovered card
+        applyExpandedStyles(card);
+
+        // Shrink the other cards
+        cards.forEach((otherCard, otherIndex) => {
+            if (otherIndex !== index) {
+            applyShrunkStyles(otherCard);
+            }
+        });
+        });
+    });
+    });
+</script>
+
 

@@ -1077,6 +1077,10 @@ sup {
     padding: 6px 10px;
 }
 
+.navbar-nav .nav-item {
+    padding: 0 20px 0 0;
+}
+
 .navbar-nav .nav-menu-content {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -2601,6 +2605,180 @@ sup {
     margin-bottom: 0;
 }
 
+.r-features--group  {
+    display: flex;
+    min-height: 30rem;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.r-features--card {
+    flex: 1 1 50%;
+    transition: flex 0.5s ease, all 0.5s ease;
+    min-height: 34rem;
+    width: auto;
+    margin: 0;
+}
+
+.r-features--card .card-content {
+    background: #121316;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 345px;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline-start: 2.5rem;
+    padding-inline-end: 2.5rem;
+    padding: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.r-features--card .card-content:nth-child(2) {
+    background: #d4daf7;
+}
+
+.r-features--card .card-content .content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100%;
+    padding: 0px;
+}
+
+.r-features--card .card-content .card-top {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.075rem;
+    justify-content: start;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    align-items: flex-start;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    padding-right: 0px;
+}
+
+.r-features--card .card-content .card-top .icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2.5rem;
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.r-features--card .card-content .card-top .icon-wrapper .svg-icon {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    color: #111;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.r-features--card .card-content .card-top .large-text {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 0;
+}
+
+.r-features--card .card-content .card-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.r-features--card .card-content .card-mid .top-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-top: 1rem;
+    max-width: 360px;
+}
+
+.r-features--card .card-content .card-mid .bottom-text {
+    color: rgb(255 255 255 / 50%);
+    font-size: 16px;
+    font-weight: 400;
+    line-break: 1.5;
+    width: 55%;
+}
+
+.r-features--card .card-content:nth-child(2) .card-mid .bottom-text {
+    color: rgb(0 0 0 / 50%);
+}
+
+.r-features--card .card-content .card-bottom {
+    margin: 1rem 0;
+    max-width: 30rem;
+    position: relative;
+}
+
+.r-features--card .card-content .card-bottom .btn-action--wrapper {
+    display: inline-flex;
+    width: auto;
+}
+
+.r-features--card .card-content .card-bottom .btn-action {
+    background-color: #e2572c;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.45;
+    width: auto;
+    height: 2.5rem;
+    position: relative;
+    transition: all 100ms ease-in-out;
+}
+
+.r-features--card .card-content:nth-child(2) .card-bottom .btn-action {
+    background-color: #3e58da;
+}
+
+.r-features--card .card-content .abl-image--wrapper {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    opacity: 1;
+}
+
+.r-features--card .card-content .abl-image {
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    height: 100%;
+    width: 400px;
+    margin-left: auto;
+}
+
+.r-features--card .card-content .abl-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
 
 
 

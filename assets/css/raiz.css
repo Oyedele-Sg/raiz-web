@@ -2605,10 +2605,14 @@ sup {
     margin-bottom: 0;
 }
 
+.r-features--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .r-features--group  {
     display: flex;
-    min-height: 30rem;
-    flex-direction: row;
     gap: 1rem;
     align-items: stretch;
     justify-content: center;
@@ -2778,6 +2782,14 @@ sup {
     height: 100%;
     display: block;
     object-fit: cover;
+}
+
+.r-features--card .svg-icon,
+.r-features--card .large-text,
+.r-features--card .top-text,
+.r-features--card .bottom-text,
+.r-features--card .abl-image--wrapper {
+    transition: all 0.5s ease;
 }
 
 

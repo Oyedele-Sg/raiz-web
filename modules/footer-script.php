@@ -144,10 +144,12 @@
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const cards = document.querySelectorAll(".r-features--card");
+    const groups = document.querySelectorAll(".r-features--group");
 
-    function applyExpandedStyles(card) {
-        // Expand main card
+    groups.forEach((group, groupIndex) => {
+        const cards = group.querySelectorAll(".r-features--card");
+
+        function applyExpandedStyles(card) {
         card.style.flex = "1 1 100%";
         const svgIcon = card.querySelector(".svg-icon");
         const largeText = card.querySelector(".large-text");
@@ -156,25 +158,24 @@
         const imageWrapper = card.querySelector(".abl-image--wrapper");
 
         if (svgIcon) {
-        svgIcon.style.width = "48px";
-        svgIcon.style.height = "48px";
+            svgIcon.style.width = "48px";
+            svgIcon.style.height = "48px";
         }
         if (largeText) {
-        largeText.style.fontSize = "3.5rem";
+            largeText.style.fontSize = "3.5rem";
         }
         if (topText) {
-        topText.style.transform = "none"; // Reset translate
+            topText.style.transform = "none";
         }
         if (bottomText) {
-        bottomText.style.transform = "none"; // Reset translate
+            bottomText.style.transform = "none";
         }
         if (imageWrapper) {
-        imageWrapper.style.width = "400px"; // Expand image wrapper
+            imageWrapper.style.width = "400px";
         }
-    }
+        }
 
-    function applyShrunkStyles(card) {
-        // Shrink secondary card
+        function applyShrunkStyles(card) {
         card.style.flex = "1 1 50%";
         const svgIcon = card.querySelector(".svg-icon");
         const largeText = card.querySelector(".large-text");
@@ -183,42 +184,51 @@
         const imageWrapper = card.querySelector(".abl-image--wrapper");
 
         if (svgIcon) {
-        svgIcon.style.width = "32px";
-        svgIcon.style.height = "32px";
+            svgIcon.style.width = "32px";
+            svgIcon.style.height = "32px";
         }
         if (largeText) {
-        largeText.style.fontSize = "2.5rem";
+            largeText.style.fontSize = "2.5rem";
         }
         if (topText) {
-        topText.style.transform = "translateY(185px) translateZ(0px)";
+            topText.style.transform = "translateY(185px) translateZ(0px)";
         }
         if (bottomText) {
-        bottomText.style.transform = "translateY(295px) translateZ(0px)";
+            bottomText.style.transform = "translateY(295px) translateZ(0px)";
         }
         if (imageWrapper) {
-        imageWrapper.style.width = "0px"; // Collapse image wrapper
+            imageWrapper.style.width = "0px";
         }
-    }
+        }
 
-    // Initial State:
-    applyExpandedStyles(cards[0]);
-    applyShrunkStyles(cards[1]);
+        // Initial State
+        if (groupIndex === 0) {
+        // Top row: First card expanded
+        applyExpandedStyles(cards[0]);
+        applyShrunkStyles(cards[1]);
+        } else {
+        // Bottom row: Second card expanded
+        applyShrunkStyles(cards[0]);
+        applyExpandedStyles(cards[1]);
+        }
 
-    // Hover Logic
-    cards.forEach((card, index) => {
+        // Hover Behavior
+        cards.forEach((card, index) => {
         card.addEventListener("mouseenter", () => {
-        // Expand the hovered card
-        applyExpandedStyles(card);
+            // Expand hovered card
+            applyExpandedStyles(card);
 
-        // Shrink the other cards
-        cards.forEach((otherCard, otherIndex) => {
+            // Shrink the other card
+            cards.forEach((otherCard, otherIndex) => {
             if (otherIndex !== index) {
-            applyShrunkStyles(otherCard);
+                applyShrunkStyles(otherCard);
             }
+            });
         });
         });
     });
     });
 </script>
+
 
 

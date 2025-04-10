@@ -266,59 +266,121 @@
 
                     <div class="row">
                         <div class="col-lg-12 col-sm-12">
-                            <div class="r-features--group">
-                                <div class="r-features--card">
-                                    <div class="card-content">
-                                        <div class="content-wrap">
-                                            <div class="card-top">
-                                                <div class="icon-wrapper">
-                                                    <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                            <div class="r-features--container">
+                                <div class="r-features--group top-row">
+                                    <div class="r-features--card">
+                                        <div class="card-content">
+                                            <div class="content-wrap">
+                                                <div class="card-top">
+                                                    <div class="icon-wrapper">
+                                                        <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                                                    </div>
+                                                    <h3 class="large-text">Capital</h3>
                                                 </div>
-                                                <h3 class="large-text">Capital</h3>
-                                            </div>
-                                            <div class="card-mid">
-                                                <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
-                                            </div>
-                                            <div class="card-bottom">
-                                                <div class="btn-action--wrapper">
-                                                    <a href="#" class="btn-action">
-                                                        <span>Learn more</span>
-                                                    </a>
+                                                <div class="card-mid">
+                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
+                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="btn-action--wrapper">
+                                                        <a href="#" class="btn-action">
+                                                            <span>Learn more</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="abl-image--wrapper">
+                                                    <div class="abl-image">
+                                                        <img class="image" src="assets/images/r-feature-image-1.webp" alt="Product Slide Selector" loading="lazy">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="abl-image--wrapper">
-                                                <div class="abl-image">
-                                                    <img class="image" src="assets/images/r-feature-image-1.webp" alt="Product Slide Selector" loading="lazy">
+                                        </div>
+                                    </div>
+
+                                    <div class="r-features--card">
+                                        <div class="card-content">
+                                            <div class="content-wrap">
+                                                <div class="card-top">
+                                                    <div class="icon-wrapper">
+                                                        <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                                                    </div>
+                                                    <h3 class="large-text">Capital</h3>
+                                                </div>
+                                                <div class="card-mid">
+                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
+                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="btn-action--wrapper">
+                                                        <a href="#" class="btn-action">
+                                                            <span>Learn more</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="abl-image--wrapper">
+                                                    <div class="abl-image">
+                                                        <img class="image" src="assets/images/r-feature-image-2.webp" alt="Product Slide Selector" loading="lazy">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="r-features--card">
-                                    <div class="card-content">
-                                        <div class="content-wrap">
-                                            <div class="card-top">
-                                                <div class="icon-wrapper">
-                                                    <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                                <div class="r-features--group bottom-row">
+                                    <div class="r-features--card">
+                                        <div class="card-content">
+                                            <div class="content-wrap">
+                                                <div class="card-top">
+                                                    <div class="icon-wrapper">
+                                                        <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                                                    </div>
+                                                    <h3 class="large-text">Capital</h3>
                                                 </div>
-                                                <h3 class="large-text">Capital</h3>
-                                            </div>
-                                            <div class="card-mid">
-                                                <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
-                                            </div>
-                                            <div class="card-bottom">
-                                                <div class="btn-action--wrapper">
-                                                    <a href="#" class="btn-action">
-                                                        <span>Learn more</span>
-                                                    </a>
+                                                <div class="card-mid">
+                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
+                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="btn-action--wrapper">
+                                                        <a href="#" class="btn-action">
+                                                            <span>Learn more</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="abl-image--wrapper">
+                                                    <div class="abl-image">
+                                                        <img class="image" src="assets/images/r-feature-image-1.webp" alt="Product Slide Selector" loading="lazy">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="abl-image--wrapper">
-                                                <div class="abl-image">
-                                                    <img class="image" src="assets/images/r-feature-image-2.webp" alt="Product Slide Selector" loading="lazy">
+                                        </div>
+                                    </div>
+
+                                    <div class="r-features--card">
+                                        <div class="card-content">
+                                            <div class="content-wrap">
+                                                <div class="card-top">
+                                                    <div class="icon-wrapper">
+                                                        <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
+                                                    </div>
+                                                    <h3 class="large-text">Capital</h3>
+                                                </div>
+                                                <div class="card-mid">
+                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
+                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="btn-action--wrapper">
+                                                        <a href="#" class="btn-action">
+                                                            <span>Learn more</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="abl-image--wrapper">
+                                                    <div class="abl-image">
+                                                        <img class="image" src="assets/images/r-feature-image-2.webp" alt="Product Slide Selector" loading="lazy">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

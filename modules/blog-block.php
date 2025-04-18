@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="section-title--wrap">
-                <h3 class="section-title wow fadeInUp" data-wow-delay=".2s">The latest from Raiz</h3>
+                <h3 class="section-title wow fadeInUp" data-wow-delay=".2s">Let's talk about getting Raized</h3>
             </div>
         </div>
         <div class="row">

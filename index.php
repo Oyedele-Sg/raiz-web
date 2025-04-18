@@ -22,11 +22,11 @@
             <section class="ud-hero hero">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-12">
+                        <div class="col-lg-12 col-sm-12">
                             <div class="hero-header wow fadeInUp" data-wow-delay=".2s">
-                                <h1 class="hero-title"><span class="text-cursive">Empower</span> your finances with Raiz Finance</h1>
+                                <h1 class="hero-title">One app for all your money moves.</h1>
                                 <div class="hero-text--wrapper">
-                                    <h3 class="hero-subtitle">Seamless banking, global transactions, and spending—all in one place.</h3>
+                                    <h3 class="hero-subtitle">Send, spend, save, and swap — anywhere, anytime. You just got Raized.</h3>
                                     <div class="btn-action--wrapper">
                                         <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
                                             <div class="text-move--wrapper">
@@ -36,7 +36,7 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="usd-banking.php" class="get-app--btn outline-btn">
+                                        <a href="usd-banking" class="get-app--btn outline-btn">
                                             <div class="text-move--wrapper">
                                                 <div class="text-move">
                                                     <div class="button-text">Learn More</div>
@@ -52,33 +52,53 @@
                             <img src="assets/images/hero-bg-image.webp" class="hero-bg-image wow fadeInUp" data-wow-delay=".35s" alt="Hero Image"/>
                         </div> -->
                     </div>
-                    <div class="disclaimer-text wow fadeInUp" data-wow-delay=".3s">Raiz is a financial technology company, not a bank. Banking services are provided by Palmpay Inc Bank.</div>
                 </div>
-                <!-- <div class="hero-image--background"></div> -->
             </section>
 
-            <section class="ms-block">
-                <div class="container">
-                    <div class="ms-flex--cards">
-                        <div class="ms-card--item wow fadeInUp" data-wow-delay=".2s">
-                            <div class="ms-card">
-                                <img src="assets/images/mobile-screen1.svg" class="ms-card--image" alt="Mobile Screen 1"/>
-                            </div>
-                        </div>
-                        <div class="ms-card--item low wow fadeInUp" data-wow-delay=".3s">
-                            <div class="ms-card">
-                                <img src="assets/images/mobile-screen2.svg" class="ms-card--image" alt="Mobile Screen 2"/>
-                            </div>
-                        </div>
-                        <div class="ms-card--item wow fadeInUp" data-wow-delay=".4s">
-                            <div class="ms-card">
-                                <img src="assets/images/mobile-screen3.svg" class="ms-card--image" alt="Mobile Screen 3"/>
-                            </div>
-                        </div>
-                        <div class="ms-card--item low wow fadeInUp" data-wow-delay=".5s">
-                            <div class="ms-card">
-                                <img src="assets/images/mobile-screen4.svg" class="ms-card--image" alt="Mobile Screen 4"/>
-                            </div>
+            <section class="image-slider--block">
+                <div class="image-slider--container">
+                    <div class="image-slider--wrapper">
+                        <div class="image-holder">
+                            <ul class="image-lists">
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-1.avif" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-2.avif" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-3.avif" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-4.avif" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-5.avif" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/scrolling-image-6.avif" class="image" alt=""/>
+                                </li>
+                            </ul>
+                            <ul class="image-lists">
+                                <li class="image-list--item">
+                                    <img src="assets/images/member1.webp" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/member2.webp" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/member3.webp" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/member4.webp" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/member5.webp" class="image" alt=""/>
+                                </li>
+                                <li class="image-list--item">
+                                    <img src="assets/images/member6.webp" class="image" alt=""/>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -104,165 +124,6 @@
                     <div class="section-title--wrap">
                         <h2 class="section-title">Banking at your fingertips.</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="features-tab--layout">
-                                <div class="nav-container">
-                                    <div class="nav flex-column" id="features-tab" role="tablist" aria-orientation="vertical">
-                                        <a href="#usd-banking" class="nav-link active" data-bs-toggle="tab" role="tab" aria-controls="usd-banking" aria-selected="true">
-                                            <div class="link-content">
-                                                <img class="tab-icon" src="assets/images/icons/usd-banking-icon.svg" alt="USD Banking Icon">
-                                                <span class="tab-text">USD Banking</span>
-                                            </div>
-                                        </a>
-                                        <a href="#swap" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="swap" aria-selected="false">
-                                            <div class="link-content">
-                                                <img class="tab-icon" src="assets/images/icons/swap-icon.svg" alt="Swap Icon">
-                                                <span class="tab-text">Swap</span>
-                                            </div>
-                                        </a>
-                                        <a href="#card" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="card" aria-selected="false">
-                                            <div class="link-content">
-                                                <img class="tab-icon" src="assets/images/icons/cashback-icon.svg" alt="Card Icon">
-                                                <span class="tab-text">Virtual Cards</span>
-                                            </div>
-                                        </a>
-                                        <!-- <a href="#payday-loans" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="payday-loans" aria-selected="false">
-                                            <div class="link-content">
-                                                <img class="tab-icon" src="assets/images/icons/payday-loan-icon.svg" alt="Payday Loans Icon">
-                                                <span class="tab-text">Payday Loans</span>
-                                            </div>
-                                        </a>
-                                        <a href="#ajo" class="nav-link" data-bs-toggle="tab" role="tab" aria-controls="ajo" aria-selected="false">
-                                            <div class="link-content">
-                                                <img class="tab-icon" src="assets/images/icons/ajo-icon.svg" alt="Ajo Icon">
-                                                <span class="tab-text">Ajo</span>
-                                            </div>
-                                        </a> -->
-                                    </div>
-                                </div>
-
-                                <div class="content-container">
-                                    <div class="tab-content" id="features-tabContent">
-                                        <div class="tab-pane fade show active" id="usd-banking" role="tabpanel" aria-labelledby="usd-banking-tab">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrapper">
-                                                    <img src="assets/images/raiz-usd-wallet-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
-                                                </div>
-                                                <div class="copy-wrapper">
-                                                    <div class="tagline">USD Banking</div>
-                                                    <h3 class="large-text">Raiz the bar with USD Banking just for you</h3>
-                                                    <div class="small-text">Open a USD account with a few clicks and enjoy money transfer with ease</div>
-                                                    <div class="btn-link--wrapper">
-                                                        <a href="usd-banking.php" class="get-app--btn">
-                                                            <div class="text-move--wrapper">
-                                                                <div class="text-move">
-                                                                    <div class="button-text">Explore USD Banking</div>
-                                                                    <div class="button-text is_2">Explore USD Banking</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- <div class="tab-pane fade" id="payday-loans" role="tabpanel" aria-labelledby="payday-loans-tab">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrapper">
-                                                    <img src="assets/images/raiz-loans-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
-                                                </div>
-                                                <div class="copy-wrapper">
-                                                    <div class="tagline">Payday Loans</div>
-                                                    <h3 class="large-text">Turn any day into payday</h3>
-                                                    <div class="small-text">Get quick payday loans tailored to your needs.</div>
-                                                    <div class="btn-link--wrapper">
-                                                        <a href="payday-loans.php" class="get-app--btn">
-                                                            <div class="text-move--wrapper">
-                                                                <div class="text-move">
-                                                                    <div class="button-text">Explore Payday Loans</div>
-                                                                    <div class="button-text is_2">Explore Payday Loans</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-
-                                        <div class="tab-pane fade" id="swap" role="tabpanel" aria-labelledby="swap-tab">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrapper">
-                                                    <img src="assets/images/raiz-swap-usd-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
-                                                </div>
-                                                <div class="copy-wrapper">
-                                                    <div class="tagline">Swap</div>
-                                                    <h3 class="large-text">Swap Currencies, Quick & Easy</h3>
-                                                    <div class="small-text">Enjoy the freedom to exchange currency whenever you desire, for transactions or investing.</div>
-                                                    <div class="btn-link--wrapper">
-                                                        <a href="swaps.php" class="get-app--btn">
-                                                            <div class="text-move--wrapper">
-                                                                <div class="text-move">
-                                                                    <div class="button-text">Explore Swap</div>
-                                                                    <div class="button-text is_2">Explore Swap</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- <div class="tab-pane fade" id="ajo" role="tabpanel" aria-labelledby="ajo-tab">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrapper">
-                                                    <img src="assets/images/raiz-community-saving-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
-                                                </div>
-                                                <div class="copy-wrapper">
-                                                    <div class="tagline">Community Savings (Ajo)</div>
-                                                    <h3 class="large-text">Achieve your Saving goal Faster with Community Savings</h3>
-                                                    <div class="small-text">Join a community of savers, build healthy financial habits, and achieve your goals with ease..</div>
-                                                    <div class="btn-link--wrapper">
-                                                        <a href="ajo.php" class="get-app--btn">
-                                                            <div class="text-move--wrapper">
-                                                                <div class="text-move">
-                                                                    <div class="button-text">Explore Community Savings</div>
-                                                                    <div class="button-text is_2">Explore Community Savings</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-
-                                        <div class="tab-pane fade" id="card" role="tabpanel" aria-labelledby="card-tab">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrapper">
-                                                    <img src="assets/images/raiz-usd-wallet-screen.png" loading="lazy" sizes="(max-width: 479px) 300px, (max-width: 767px) 55vw, 100vw" alt="" class="image">
-                                                </div>
-                                                <div class="copy-wrapper">
-                                                    <div class="tagline">Virtual Card</div>
-                                                    <h3 class="large-text">Simple, Accessible & Affordable</h3>
-                                                    <div class="small-text">Enjoy the freedom to pay for all your favorite subscriptions and online transactions.</div>
-                                                    <div class="btn-link--wrapper">
-                                                        <a href="debit-card.php" class="get-app--btn">
-                                                            <div class="text-move--wrapper">
-                                                                <div class="text-move">
-                                                                    <div class="button-text">Explore Card</div>
-                                                                    <div class="button-text is_2">Explore Card</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="row">
                         <div class="col-lg-12 col-sm-12">
@@ -275,11 +136,11 @@
                                                     <div class="icon-wrapper">
                                                         <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
                                                     </div>
-                                                    <h3 class="large-text">Capital</h3>
+                                                    <h3 class="large-text">USD Banking</h3>
                                                 </div>
                                                 <div class="card-mid">
-                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                    <div class="top-text">Access and manage your dollars with ease, no hidden fees or complicated steps.</div>
+                                                    <div class="bottom-text">Raiz gives you seamless USD banking to save, send, and transact globally — right from your app.</div>
                                                 </div>
                                                 <div class="card-bottom">
                                                     <div class="btn-action--wrapper">
@@ -304,11 +165,11 @@
                                                     <div class="icon-wrapper">
                                                         <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
                                                     </div>
-                                                    <h3 class="large-text">Capital</h3>
+                                                    <h3 class="large-text">Send</h3>
                                                 </div>
                                                 <div class="card-mid">
-                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                    <div class="top-text">Move money across borders quickly, securely, and without the usual hassle.</div>
+                                                    <div class="bottom-text">Raiz makes sending money internationally as easy as a local transfer — fast, transparent, and reliable.</div>
                                                 </div>
                                                 <div class="card-bottom">
                                                     <div class="btn-action--wrapper">
@@ -335,11 +196,11 @@
                                                     <div class="icon-wrapper">
                                                         <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
                                                     </div>
-                                                    <h3 class="large-text">Capital</h3>
+                                                    <h3 class="large-text">Swap</h3>
                                                 </div>
                                                 <div class="card-mid">
-                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                    <div class="top-text">Swap currencies instantly at competitive rates whenever you need.</div>
+                                                    <div class="bottom-text">Raiz lets you exchange your money into USD, GBP, EUR, and more in just a few taps.</div>
                                                 </div>
                                                 <div class="card-bottom">
                                                     <div class="btn-action--wrapper">
@@ -364,11 +225,11 @@
                                                     <div class="icon-wrapper">
                                                         <svg viewBox="0 0 40 41" focusable="false" class="svg-icon"><path fill="none" d="M17.3333 16.7119H24.1667V23.5452M16 24.8786L24 16.8786" stroke="currentColor" stroke-width="1.5"></path></svg>
                                                     </div>
-                                                    <h3 class="large-text">Capital</h3>
+                                                    <h3 class="large-text">Card</h3>
                                                 </div>
                                                 <div class="card-mid">
-                                                    <div class="top-text">Give your customers streamlined access to capital without ever leaving your platform.</div>
-                                                    <div class="bottom-text">Pipe makes working capital a seamless, native experience for your customers.</div>
+                                                    <div class="top-text">Spend smarter globally with your Raiz multi-currency virtual card.</div>
+                                                    <div class="bottom-text">Get a secure, flexible card that works anywhere — shop, subscribe, and pay in the currencies you choose.</div>
                                                 </div>
                                                 <div class="card-bottom">
                                                     <div class="btn-action--wrapper">
@@ -390,7 +251,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-image--background"></div>
             </section>
 
             <?php include('modules/video-block.php'); ?>
@@ -507,20 +367,115 @@
                 </div>
             </section>
 
+            <section class="scrolling-currency--block">
+                <div class="scrolling-currency--container">
+                    <div class="scrolling-currency--wrapper">
+                        <div class="currency-group">
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>$</span>
+                                </div>
+                                <div class="currency-label">United States</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>$</span>
+                                </div>
+                                <div class="currency-label">Canada</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>£</span>
+                                </div>
+                                <div class="currency-label">England</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>₦</span>
+                                </div>
+                                <div class="currency-label">Nigeria</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>$</span>
+                                </div>
+                                <div class="currency-label">Mexico</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Portugal</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Sweden</div>
+                            </div>
+                        </div>
+                        <div class="currency-group">
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>₵</span>
+                                </div>
+                                <div class="currency-label">Ghana</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>R</span>
+                                </div>
+                                <div class="currency-label">South Africa</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Netherland</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>KES</span>
+                                </div>
+                                <div class="currency-label">Kenya</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Germany</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>RF</span>
+                                </div>
+                                <div class="currency-label">Rwanda</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>£</span>
+                                </div>
+                                <div class="currency-label">Scotland</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="customer-ctg">
                 <div class="container">
                     <div class="customer-ctg--grid">
                         <a href="#" class="customer-ctg--card">
                             <div class="image-wrapper">
                                 <div class="bg-overlay"></div>
-                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e404350f0be3546f7119a_1.avif"  class="layout-image" width="Auto" alt="Accountants">
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e404350f0be3546f7119a_1.avif"  class="layout-image" width="Auto" alt="Individuals">
                             </div>
                             <div class="card-content">
                                 <div class="card-content--hidden">
                                     <div class="card-content--bottom">
                                         <div class="text-wrapper">
-                                            <h3 class="large-text">Accountant</h3>
-                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                            <h3 class="large-text">Individuals</h3>
+                                            <p class="small-text">Simple banking for your daily life. <br>Send, spend, save, and swap — all in one place.</p>
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
@@ -530,21 +485,21 @@
                                     </div>
                                 </div>
                                 <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
-                                <h4 class="card-heading">Accountant</h4>
+                                <h4 class="card-heading">Individuals</h4>
                             </div>
                         </a>
 
                         <a href="#" class="customer-ctg--card">
                             <div class="image-wrapper">
                                 <div class="bg-overlay"></div>
-                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e40435c0e0d80f066ed1e_3.avif"  class="layout-image" width="Auto" alt="Accountants">
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e40435c0e0d80f066ed1e_3.avif"  class="layout-image" width="Auto" alt="Freelancers">
                             </div>
                             <div class="card-content">
                                 <div class="card-content--hidden">
                                     <div class="card-content--bottom">
                                         <div class="text-wrapper">
-                                            <h3 class="large-text">Accountant</h3>
-                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                            <h3 class="large-text">Freelancers</h3>
+                                            <p class="small-text">Get paid globally, spend locally. <br>Handle international payments with ease.</p>
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
@@ -554,21 +509,21 @@
                                     </div>
                                 </div>
                                 <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" alt="">
-                                <h4 class="card-heading">Accountant</h4>
+                                <h4 class="card-heading">Freelancers</h4>
                             </div>
                         </a>
 
                         <a href="#" class="customer-ctg--card">
                             <div class="image-wrapper">
                                 <div class="bg-overlay"></div>
-                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/677bab4df52ba5355c27d0a7_biz-img-1.avif" class="layout-image" width="Auto" alt="Accountants">
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/677bab4df52ba5355c27d0a7_biz-img-1.avif" class="layout-image" width="Auto" alt="Students">
                             </div>
                             <div class="card-content">
                                 <div class="card-content--hidden">
                                     <div class="card-content--bottom">
                                         <div class="text-wrapper">
-                                            <h3 class="large-text">Accountant</h3>
-                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                            <h3 class="large-text">Students</h3>
+                                            <p class="small-text">Banking that grows with you. <br>From pocket money to tuition, take control of your finances early.</p>
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
@@ -578,21 +533,21 @@
                                     </div>
                                 </div>
                                 <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
-                                <h4 class="card-heading">Accountant</h4>
+                                <h4 class="card-heading">Students</h4>
                             </div>
                         </a>
 
                         <a href="#" class="customer-ctg--card">
                             <div class="image-wrapper">
                                 <div class="bg-overlay"></div>
-                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e3e9b7928a8d99888a482_4.avif"  class="layout-image" width="Auto" alt="Accountants">
+                                <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/674e3e9b7928a8d99888a482_4.avif"  class="layout-image" width="Auto" alt="Businesses">
                             </div>
                             <div class="card-content">
                                 <div class="card-content--hidden">
                                     <div class="card-content--bottom">
                                         <div class="text-wrapper">
-                                            <h3 class="large-text">Accountant</h3>
-                                            <p class="small-text">Accounts receivables <br>in one place.</p>
+                                            <h3 class="large-text">Businesses</h3>
+                                            <p class="small-text">Tools to power global commerce. <br>Pay teams, collect payments, and manage multiple currencies seamlessly.</p>
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
@@ -602,7 +557,7 @@
                                     </div>
                                 </div>
                                 <img src="https://cdn.prod.website-files.com/663608d6085a91363816e0cb/66573d0b284b20f6473c17ad_Frame%202087326865.avif" class="scribbles" loading="lazy" alt="">
-                                <h4 class="card-heading">Accountant</h4>
+                                <h4 class="card-heading">Businesses</h4>
                             </div>
                         </a>
                     </div>

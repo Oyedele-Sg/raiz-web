@@ -162,7 +162,7 @@
             svgIcon.style.height = "48px";
         }
         if (largeText) {
-            largeText.style.fontSize = "3.5rem";
+            largeText.style.fontSize = "3.2rem";
         }
         if (topText) {
             topText.style.transform = "none";
@@ -230,5 +230,88 @@
     });
 </script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const swiperWrapper = document.querySelector('.swiper-wrapper');
+        const dragOverlays = document.querySelectorAll('.drag-overlay');
+        const slideImageWrappers = document.querySelectorAll('.slide-image--wrapper');
+
+        let isDragging = false;
+        let startPos = 0;
+        let currentTranslate = 0;
+        let prevTranslate = 0;
+        let animationID;
+
+        slideImageWrappers.forEach(wrapper => {
+            const dragOverlay = wrapper.querySelector('.drag-overlay');
+
+            // Update dragOverlay position on mouse move
+            wrapper.addEventListener('mousemove', (event) => {
+                const wrapperRect = wrapper.getBoundingClientRect();
+                const overlayX = event.clientX - wrapperRect.left;
+                const overlayY = event.clientY - wrapperRect.top;
+
+                dragOverlay.style.left = `${overlayX}px`;
+                dragOverlay.style.top = `${overlayY}px`;
+            });
+
+            dragOverlay.addEventListener('mousedown', dragStart);
+            wrapper.addEventListener('mouseup', dragEnd);
+            wrapper.addEventListener('mouseleave', dragEnd);
+
+            wrapper.addEventListener('touchstart', dragStart);
+            wrapper.addEventListener('touchend', dragEnd);
+        });
+
+        function dragStart(event) {
+            isDragging = true;
+            startPos = getPositionX(event);
+            swiperWrapper.classList.add('draggable');
+            animationID = requestAnimationFrame(animation);
+        }
+
+        function dragging(event) {
+            if (!isDragging) return;
+            const currentPosition = getPositionX(event);
+            currentTranslate = prevTranslate + currentPosition - startPos;
+        }
+
+        function dragEnd() {
+            isDragging = false;
+            swiperWrapper.classList.remove('draggable');
+            cancelAnimationFrame(animationID);
+            prevTranslate = currentTranslate;
+        }
+
+        function getPositionX(event) {
+            return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+        }
+
+        function animation() {
+            setSliderPosition();
+            if (isDragging) requestAnimationFrame(animation);
+        }
+
+        function setSliderPosition() {
+            const maxTranslate = 0;
+            const minTranslate = -swiperWrapper.scrollWidth + swiperWrapper.clientWidth;
+
+            // Clamp the translate values within bounds
+            if (currentTranslate > maxTranslate) {
+                currentTranslate = maxTranslate;
+            } else if (currentTranslate < minTranslate) {
+                currentTranslate = minTranslate;
+            }
+
+            swiperWrapper.style.transform = `translateX(${currentTranslate}px)`;
+        }
+
+        // Enable dragging on mouse move
+        slideImageWrappers.forEach(wrapper => {
+            wrapper.addEventListener('mousemove', dragging);
+            wrapper.addEventListener('touchmove', dragging);
+        });
+    });
+</script>
 
 

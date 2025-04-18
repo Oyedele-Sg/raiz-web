@@ -1264,11 +1264,10 @@ sup {
 
 /* Hero */
 .hero, .about-us, .product-main, .terms-of--use {
-    position: relative;
-    background: transparent;
-    background-color: rgb(254 255 243);
     background-color: #ebedf5;
+    background-color: #fff;
     padding-bottom: 64px;
+    position: relative;
 }
 
 .terms-of--use {
@@ -1281,10 +1280,14 @@ sup {
 }
 
 .hero-header {
-    width: 100%;
-    max-width: 62rem;
-    color: #fff;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .hero-title, .hero-subtitle, .hero-desc {
@@ -1300,7 +1303,6 @@ sup {
     letter-spacing: -.02rem;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 550px;
 }
 
 .hero-title .text-cursive {
@@ -1309,7 +1311,6 @@ sup {
 
 .hero-text--wrapper {
     width: 100%;
-    max-width: 32.5rem;
 }
 
 .hero-subtitle {
@@ -1416,16 +1417,6 @@ sup {
 
 .get-app--btn:hover .text-move, .qr-text--wrapper .app-download--btn:hover .text-move {
     transform: translateY(-110%);
-}
-
-.hero .disclaimer-text {
-    color: var(--body-color);
-    font-size: 13px;
-    line-height: 1.65em;
-    margin-top: 2.5rem;
-    position: absolute;
-    bottom: 60px;
-    width: 500px;
 }
 
 .hero-image--background {
@@ -1540,9 +1531,107 @@ sup {
 
 .hero .btn-action--wrapper {
     display: flex;
+    justify-content: center;
     gap: 12px;
     padding-top: 1rem;
+    margin: 0 auto;
     margin-bottom: 1.5rem;
+}
+
+
+/* Draggable Image Breaker */
+.draggable-image--breaker {
+    background-color: #fff;
+    padding: 80px 0 40px;
+    position: relative;
+}
+
+.draggable-image--breaker .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0 40px;
+    touch-action: pan-y;
+    z-index: 1;
+}
+
+.draggable-image--breaker .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    transition-property: transform;
+    transform: translateX(0px);
+}
+
+.draggable-image--breaker .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.draggable-image--breaker .slide-image--wrapper {
+    box-sizing: border-box;
+    max-width: 413px;
+    position: relative;
+}
+
+.draggable-image--breaker .slide-image--container {
+    position: relative;
+}
+
+.draggable-image--breaker .slide-image {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.draggable-image--breaker:hover img {
+    transform: scale(1.05);
+}
+
+.drag-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translate(-50%, -50%);
+    /* pointer-events: none; */
+    z-index: 2;
+}
+
+.drag-overlay::after {
+    content: 'Drag';
+    color: #fff;
+    font-size: 20px;
+}
+
+.slide-image--container:hover .drag-overlay {
+    opacity: 1;
+    /* pointer-events: none; */
+    /* pointer-events: auto;
+    cursor: grab; */
+}
+
+.draggable {
+    cursor: grabbing;
 }
 
 
@@ -1580,6 +1669,94 @@ sup {
     font-weight: 400;
     line-height: 1.45;
     margin: 0;
+}
+
+
+
+/* Scrolling Currency */
+.scrolling-currency--block {
+    background-color: #fff;
+    padding: 3rem 0 4rem;
+}
+
+.scrolling-currency--container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrolling-currency--wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    max-width: 100%;
+    overflow: hidden;
+    opacity: .7;
+    position: relative;
+}
+
+.scrolling-currency--wrapper:before {
+    content: "";
+    background-image: linear-gradient(to right, #fff 0, transparent 10%, transparent 90%, #fff 100%);
+    width: 100%;
+    inset: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.scrolling-currency--wrapper .currency-group {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    width: fit-content;
+    will-change: transform;
+    animation: marquee 90s linear infinite both;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-currency--wrapper .currency-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.scrolling-currency--wrapper .currency-item .icon-wrapper {
+    background-color: #999;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+}
+
+.scrolling-currency--wrapper .currency-item .currency-label {
+    color: #d7d7d7;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0;
+    white-space: nowrap;
 }
 
 
@@ -1638,7 +1815,7 @@ sup {
 
 /* Intro */
 .intro {
-    background-color: #ebedf5;
+    background-color: #fff;
     padding-top: 0;
     padding-bottom: 120px;
 }
@@ -2115,7 +2292,7 @@ sup {
     position: relative;
 }
 
-.video-component--wrapper {
+.video-container, .video-component--wrapper {
     position: relative;
 }
 
@@ -2272,10 +2449,18 @@ sup {
     color: rgb(255 255 255 / 70%);
 }
 
+.video-playback .disclaimer-text {
+    color: #767676;
+    font-size: 13px;
+    line-height: 1.65em;
+    margin-top: 2.5rem;
+    width: 620px;
+}
+
 
 /* Features Grid */
 .features-main {
-    background-color: #453862;
+    background-color: #fff;
     position: relative;
     padding: 120px 0 96px;
 }
@@ -2287,7 +2472,7 @@ sup {
 }
 
 .features-main .section-title {
-    color: #fff;
+    /* color: #fff; */
     font-size: 40px;
     font-weight: 600;
     line-height: 1.1;
@@ -2638,7 +2823,7 @@ sup {
     width: 100%;
     padding-inline-start: 2.5rem;
     padding-inline-end: 2.5rem;
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 2.5rem;
     position: relative;
     overflow: hidden;
 }
@@ -2658,6 +2843,7 @@ sup {
 .r-features--card .card-content .card-top {
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 100%;
@@ -2711,15 +2897,15 @@ sup {
     font-weight: 400;
     line-height: 1.25;
     margin-top: 1rem;
-    max-width: 360px;
+    max-width: 320px;
 }
 
 .r-features--card .card-content .card-mid .bottom-text {
     color: rgb(255 255 255 / 50%);
     font-size: 16px;
     font-weight: 400;
-    line-break: 1.5;
-    width: 55%;
+    line-height: 1.5;
+    width: 50%;
 }
 
 .r-features--card .card-content:nth-child(2) .card-mid .bottom-text {
@@ -2750,6 +2936,7 @@ sup {
     line-height: 1.45;
     width: auto;
     height: 2.5rem;
+    padding: 0 0.75rem;
     position: relative;
     transition: all 100ms ease-in-out;
 }
@@ -2778,6 +2965,7 @@ sup {
 }
 
 .r-features--card .card-content .abl-image img {
+    border-radius: 0.75rem;
     width: 100%;
     height: 100%;
     display: block;
@@ -4431,9 +4619,8 @@ sup {
 
 /* Image Slideshow */
 .image-slider--block {
-    background-color: #ddeae4;
-    background-color: #fefff3;
-    padding: 80px 0;
+    background-color: #fff;
+    padding: 10px 0 80px;
     position: relative;
 }
 
@@ -4468,7 +4655,7 @@ sup {
 }
 
 .image-slider--wrapper .image-holder {
-    animation: moveSlideshow 75s linear infinite;
+    animation: moveSlideshow 45s linear infinite;
 }
 
 .image-slider--wrapper .image-lists {
@@ -4479,11 +4666,14 @@ sup {
 }
 
 .image-slider--wrapper .image-lists .image-list--item {
-    width: 22rem;
+    height: 32rem;
+    width: auto;
 }
 
 .image-slider--wrapper .image-lists .image {
-    border-radius: 32px;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
 }
 
 @keyframes moveSlideshow {
@@ -4820,6 +5010,7 @@ sup {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
+    width: 300px;
 }
 
 .customer-ctg--card .card-content--hidden .card-content--bottom .action-btn--wrapper {
@@ -6013,7 +6204,7 @@ sup {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
-    padding: 30px;
+    padding: 30px 0 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

@@ -775,6 +775,42 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="db-card--grid">
+                        <div class="card-image--wrapper wow fadeInUp" data-wow-delay=".7s">
+                            <img src="assets/images/raiz-card-grouped-edited.webp" loading="lazy" alt="" class="card-image">
+                        </div>
+                        <div class="card-content--wrapper wow fadeInUp" data-wow-delay=".75s">
+                            <div class="card-content">
+                                <h3 class="large-text"><span class="">Spend in style</span> every day</h3>
+                                <p class="body-text">Vibrant contactless Raiz Debit card to make payments anywhere in the world. Physical or virtual, choose what suits you.</p>
+                            </div>
+                        </div>
+                        <div class="card-features--wrapper">
+                            <div class="card-features">
+                                <div class="card-features--list wow fadeInUp" data-wow-delay=".8s">
+                                    <img src="assets/images/icons/withdrawal-icon.svg" loading="lazy" alt="" class="card-icon">
+                                    <h3 class="card-heading">Withdrawals</h3>
+                                    <p class="card-text">Cash withdrawal at 25,000 ATMs worldwide.</p>
+                                </div>
+                                <div class="card-features--list wow fadeInUp" data-wow-delay=".85s">
+                                    <img src="assets/images/icons/lock-icon.svg" loading="lazy" alt="" class="card-icon">
+                                    <div class="card-heading">Freeze or Lock</div>
+                                    <p class="card-text">Keep your money safe with freezing or locking functions.</p>
+                                </div>
+                                <div class="card-features--list wow fadeInUp" data-wow-delay=".9s">
+                                    <img src="assets/images/icons/cashback-icon.svg" loading="lazy" alt="" class="card-icon">
+                                    <div class="card-heading">Earn Cashbacks</div>
+                                    <p class="card-text">Get rewarded for using your Raiz debit card.</p>
+                                </div>
+                                <div class="card-features--list wow fadeInUp" data-wow-delay=".95s">
+                                    <img src="assets/images/icons/shop-online-icon.svg" loading="lazy" alt="" class="card-icon">
+                                    <div class="card-heading">Shop Online Securely</div>
+                                    <p class="card-text">Enjoy added security with your Raiz debit card.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

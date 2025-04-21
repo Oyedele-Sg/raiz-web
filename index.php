@@ -110,8 +110,13 @@
                         <div class="col-lg-12 col-sm-12">
                             <div class="intro-grid">
                                 <h2 class="large-text wow fadeInUp" data-wow-delay=".15s">The modern way to manage your money. (/reɪz am/)</h2>
-                                <div class="small-text wow fadeInUp" data-wow-delay=".2s">
-                                    <span class="active">— built for individuals, freelancers, students, and businesses who live, work, and transact across borders. We're rethinking what a bank should be: simple, accessible, and global from day one.</span>
+                                <div class="small-text--grid">
+                                    <div class="small-text wow fadeInUp" data-wow-delay=".2s">
+                                        <span class="active">— built for individuals, freelancers, students, and businesses who live, work, and transact across borders. We're rethinking what a bank should be: simple, accessible, and global from day one.</span>
+                                    </div>
+                                    <div class="small-text wow fadeInUp" data-wow-delay=".3s">
+                                        <span class="active">Whether you're sending money home, getting paid internationally, or just need a smarter way to bank — Raiz gives you the tools to move your money freely, without the stress.</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -324,42 +329,6 @@
                                     <div class="des-text">Raiz breaks down your spending into bite-sized insights, so you can spend better and save smarter — no lectures, just vibes.</div>
                                 </li>
                             </ul>
-
-                            <div class="db-card--grid">
-                                <div class="card-image--wrapper wow fadeInUp" data-wow-delay=".7s">
-                                    <img src="assets/images/raiz-card-grouped-edited.webp" loading="lazy" alt="" class="card-image">
-                                </div>
-                                <div class="card-content--wrapper wow fadeInUp" data-wow-delay=".75s">
-                                    <div class="card-content">
-                                        <h3 class="large-text"><span class="">Spend in style</span> every day</h3>
-                                        <p class="body-text">Vibrant contactless Raiz Debit card to make payments anywhere in the world. Physical or virtual, choose what suits you.</p>
-                                    </div>
-                                </div>
-                                <div class="card-features--wrapper">
-                                    <div class="card-features">
-                                        <div class="card-features--list wow fadeInUp" data-wow-delay=".8s">
-                                            <img src="assets/images/icons/withdrawal-icon.svg" loading="lazy" alt="" class="card-icon">
-                                            <h3 class="card-heading">Withdrawals</h3>
-                                            <p class="card-text">Cash withdrawal at 25,000 ATMs worldwide.</p>
-                                        </div>
-                                        <div class="card-features--list wow fadeInUp" data-wow-delay=".85s">
-                                            <img src="assets/images/icons/lock-icon.svg" loading="lazy" alt="" class="card-icon">
-                                            <div class="card-heading">Freeze or Lock</div>
-                                            <p class="card-text">Keep your money safe with freezing or locking functions.</p>
-                                        </div>
-                                        <div class="card-features--list wow fadeInUp" data-wow-delay=".9s">
-                                            <img src="assets/images/icons/cashback-icon.svg" loading="lazy" alt="" class="card-icon">
-                                            <div class="card-heading">Earn Cashbacks</div>
-                                            <p class="card-text">Get rewarded for using your Raiz debit card.</p>
-                                        </div>
-                                        <div class="card-features--list wow fadeInUp" data-wow-delay=".95s">
-                                            <img src="assets/images/icons/shop-online-icon.svg" loading="lazy" alt="" class="card-icon">
-                                            <div class="card-heading">Shop Online Securely</div>
-                                            <p class="card-text">Enjoy added security with your Raiz debit card.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -508,7 +477,7 @@
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
-                                                <span>Lean more</span>
+                                                <span>Learn more</span>
                                             </div>
                                         </div>
                                     </div>
@@ -532,7 +501,7 @@
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
-                                                <span>Lean more</span>
+                                                <span>Learn more</span>
                                             </div>
                                         </div>
                                     </div>
@@ -556,7 +525,7 @@
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
-                                                <span>Lean more</span>
+                                                <span>Learn more</span>
                                             </div>
                                         </div>
                                     </div>
@@ -580,7 +549,7 @@
                                         </div>
                                         <div class="action-btn--wrapper">
                                             <div class="action-btn">
-                                                <span>Lean more</span>
+                                                <span>Learn more</span>
                                             </div>
                                         </div>
                                     </div>

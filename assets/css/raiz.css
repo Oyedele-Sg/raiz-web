@@ -1826,18 +1826,17 @@ sup {
 }
 
 .intro .intro-grid {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-column-gap: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .intro .large-text {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-weight: 600;
     line-height: 1.1;
     letter-spacing: -0.01em;
+    max-width: 800px;
     margin: 0;
 }
 
@@ -3070,6 +3069,47 @@ sup {
 
 .more-features .feature-item .image-wrapper .image {
     width: 100%;
+}
+
+.more-features--grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+.more-features--list {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+}
+
+.more-features--list .list-icon {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+}
+
+.more-features--list .title-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.015rem;
+    white-space: pre-line;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.more-features--list .des-text {
+    color: #505a63;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0.5rem;
 }
 
 .db-card--grid {

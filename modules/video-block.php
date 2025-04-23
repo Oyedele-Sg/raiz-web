@@ -18,20 +18,20 @@
                 <div class="content-wrapper">
                     <div class="content-col">
                         <div class="text-block">
-                            <h3 class="title-text">Fully non-custodial wallets</h3>
-                            <p class="des-text">We believe the future is self-custodial. Maintain complete ownership of your funds for ultimate security and independence.</p>
+                            <h3 class="title-text">Safe Log-in</h3>
+                            <p class="des-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
                         </div>
                     </div>
                     <div class="content-col">
                         <div class="text-block">
-                            <h3 class="title-text">Modern authentication</h3>
-                            <p class="des-text">Access your account securely using biometrics on your trusted device.</p>
+                            <h3 class="title-text">Identity check</h3>
+                            <p class="des-text">To ensure it's really you, we ask for a government-issued ID with your photo, plus a liveness check.</p>
                         </div>
                     </div>
                     <div class="content-col">
                         <div class="text-block">
-                            <h3 class="title-text">Easy and secure recovery</h3>
-                            <p class="des-text">We offer a range of backup options to help you recover your account if you lose access to your keys or device.</p>
+                            <h3 class="title-text">We keep it simple</h3>
+                            <p class="des-text">From signing up to sending money, everything’s designed to be fast, clear, and frustration-free.</p>
                         </div>
                     </div>
                 </div>

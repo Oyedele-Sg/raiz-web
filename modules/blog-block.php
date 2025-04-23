@@ -13,13 +13,10 @@
                             <img src="assets/images/blog/post-image-2.jpeg" alt="">
                         </div>
                         <div class="single-post--info">
-                            <h3 class="single-post--title" title="How to create an effective reward system for kids">How to create an effective reward system for kids</h3>
+                            <h3 class="single-post--title" title="How to create an effective reward system for kids">USD, NGN, GBP… WTF is going on with my money?</h3>
                             <ul class="single-post--meta">
                                 <li>
-                                    <span class="category family">Family</span>
-                                </li>
-                                <li>
-                                    <span class="date">June 15 2022</span>
+                                    <span class="date">March 15 2025</span>
                                 </li>
                             </ul>
                         </div>
@@ -33,13 +30,10 @@
                             <img src="assets/images/blog/post-image-3.jpeg" alt="">
                         </div>
                         <div class="single-post--info">
-                            <h3 class="single-post--title" title="Can you invest in the stock market before you turn 18?">Can you invest in the stock market before you turn 18?</h3>
+                            <h3 class="single-post--title" title="Can you invest in the stock market before you turn 18?">How to be a global citizen (without breaking the bank)</h3>
                             <ul class="single-post--meta">
                                 <li>
-                                    <span class="category financial-education">Financial education</span>
-                                </li>
-                                <li>
-                                    <span class="date">June 13 2022</span>
+                                    <span class="date">March 13 2025</span>
                                 </li>
                             </ul>
                         </div>
@@ -53,13 +47,10 @@
                             <img src="assets/images/blog/post-image-4.jpeg" alt="">
                         </div>
                         <div class="single-post--info">
-                            <h3 class="single-post--title" title="Does pocket money teach independence?">Does pocket money teach independence?</h3>
+                            <h3 class="single-post--title" title="Does pocket money teach independence?">5 money moves that say 'I've been Raized'</h3>
                             <ul class="single-post--meta">
                                 <li>
-                                    <span class="category pocket-money">Pocket money</span>
-                                </li>
-                                <li>
-                                    <span class="date">June 10 2022</span>
+                                    <span class="date">March 10 2025</span>
                                 </li>
                             </ul>
                         </div>

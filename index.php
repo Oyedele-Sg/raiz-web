@@ -166,7 +166,7 @@
                                     </div>
 
                                     <div class="r-features--card">
-                                        <div class="card-content">
+                                        <div class="card-content blue">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">
@@ -197,7 +197,7 @@
 
                                 <div class="r-features--group bottom-row">
                                     <div class="r-features--card">
-                                        <div class="card-content">
+                                        <div class="card-content red">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">
@@ -226,7 +226,7 @@
                                     </div>
 
                                     <div class="r-features--card">
-                                        <div class="card-content">
+                                        <div class="card-content green">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">
@@ -329,37 +329,6 @@
                                     <div class="des-text">Raiz breaks down your spending into bite-sized insights, so you can spend better and save smarter — no lectures, just vibes.</div>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="why-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="why-grid">
-                                <div class="why-item wow fadeInUp" data-wow-delay=".3s">
-                                    <img src="assets/images/icons/facelock-icon.svg" loading="lazy" alt="Safe Log In" class="svg-icon">
-                                    <div class="large-text">Safe Log In</div>
-                                    <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                                </div>
-                                <div class="why-item wow fadeInUp" data-wow-delay=".4s">
-                                    <img src="assets/images/icons/identity-check-icon.svg" loading="lazy" alt="Identity Check" class="svg-icon">
-                                    <div class="large-text">Identity Check</div>
-                                    <p class="small-text">To ensure it's really you, we ask for a government-issued ID with your photo, plus a liveness check.</p>
-                                </div>
-                                <div class="why-item wow fadeInUp" data-wow-delay=".5s">
-                                    <img src="assets/images/icons/always-safe-icon.svg" loading="lazy" alt="Always Safe" class="svg-icon">
-                                    <div class="large-text">Always Safe</div>
-                                    <p class="small-text">Securely log in to your app using Face ID, Touch ID or Fingerprint Scanner.</p>
-                                </div>
-                                <div class="why-item wow fadeInUp" data-wow-delay=".6s">
-                                    <img src="assets/images/icons/notifications-icon.svg" loading="lazy" alt="" class="svg-icon">
-                                    <div class="large-text">Notifications</div>
-                                    <p class="small-text">Get instant notifications every time you spend with your card.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

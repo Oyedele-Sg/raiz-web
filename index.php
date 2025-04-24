@@ -380,8 +380,6 @@
                                 </div>
                                 <div class="currency-label">Sweden</div>
                             </div>
-                        </div>
-                        <div class="currency-group">
                             <div class="currency-item">
                                 <div class="icon-wrapper">
                                     <span>₵</span>
@@ -412,6 +410,8 @@
                                 </div>
                                 <div class="currency-label">Germany</div>
                             </div>
+                        </div>
+                        <div class="currency-group">
                             <div class="currency-item">
                                 <div class="icon-wrapper">
                                     <span>RF</span>
@@ -423,6 +423,66 @@
                                     <span>£</span>
                                 </div>
                                 <div class="currency-label">Scotland</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>£</span>
+                                </div>
+                                <div class="currency-label">England</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>₦</span>
+                                </div>
+                                <div class="currency-label">Nigeria</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>$</span>
+                                </div>
+                                <div class="currency-label">Mexico</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Portugal</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Sweden</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>₵</span>
+                                </div>
+                                <div class="currency-label">Ghana</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>R</span>
+                                </div>
+                                <div class="currency-label">South Africa</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Netherland</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>KES</span>
+                                </div>
+                                <div class="currency-label">Kenya</div>
+                            </div>
+                            <div class="currency-item">
+                                <div class="icon-wrapper">
+                                    <span>€</span>
+                                </div>
+                                <div class="currency-label">Germany</div>
                             </div>
                         </div>
                     </div>
@@ -531,12 +591,16 @@
                 </div>
             </section>
 
-            <!-- <section class="pre-cta--block">
+            <?php
+                include('modules/blog-block.php');
+            ?>
+
+            <section class="pre-cta--block">
                 <div class="container">
                     <div class="pre-cta--wrapper">
                         <div class="content-wrap">
                             <h2 class="large-text">Get the banking app made for you</h2>
-                            <p class="body-text">Transform the way you interact with money, make smarter decisions. Download the app and get raized.</p>
+                            <p class="body-text">Money moves smarter with Raiz. Download the app, ditch the old rules, and get Raized.</p>
                             <div class="cta-btn--link">
                                 <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
                                     <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon">
@@ -554,11 +618,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
-
-            <?php
-                include('modules/blog-block.php');
-            ?>
+            </section>
         </div>
 
         <?php

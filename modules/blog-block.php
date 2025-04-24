@@ -10,7 +10,7 @@
                 <a href="#" class="single-post--contentWrapper post-link wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-post--content">
                         <div class="single-post--imgWrapper">
-                            <img src="assets/images/blog/post-image-2.jpeg" alt="">
+                            <img src="assets/images/scrolling-image-6.avif" alt="">
                         </div>
                         <div class="single-post--info">
                             <h3 class="single-post--title" title="How to create an effective reward system for kids">USD, NGN, GBP… WTF is going on with my money?</h3>
@@ -27,7 +27,7 @@
                 <a href="#" class="single-post--contentWrapper post-link wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-post--content">
                         <div class="single-post--imgWrapper">
-                            <img src="assets/images/blog/post-image-3.jpeg" alt="">
+                            <img src="assets/images/scrolling-image-5.avif" alt="">
                         </div>
                         <div class="single-post--info">
                             <h3 class="single-post--title" title="Can you invest in the stock market before you turn 18?">How to be a global citizen (without breaking the bank)</h3>
@@ -44,7 +44,7 @@
                 <a href="#" class="single-post--contentWrapper post-link wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-post--content">
                         <div class="single-post--imgWrapper">
-                            <img src="assets/images/blog/post-image-4.jpeg" alt="">
+                            <img src="assets/images/scrolling-image-3.avif" alt="">
                         </div>
                         <div class="single-post--info">
                             <h3 class="single-post--title" title="Does pocket money teach independence?">5 money moves that say 'I've been Raized'</h3>

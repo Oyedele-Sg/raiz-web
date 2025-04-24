@@ -1,26 +1,5 @@
 <section class="footer-block site-footer">
     <div class="container footer-content">
-        <div class="pre-cta--wrapper">
-            <div class="content-wrap">
-                <h2 class="large-text">Get the banking app made for you</h2>
-                <p class="body-text">Transform the way you interact with money, make smarter decisions. Download the app and get raized.</p>
-                <div class="cta-btn--link">
-                    <a href="https://raizapp.onelink.me/RiOx/webdirect" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
-                        <img src="assets/images/download-app-icons.svg" loading="lazy" alt="" class="button-icon">
-                        <div class="text-move--wrapper">
-                            <div class="text-move">
-                                <div class="button-text">Get the App</div>
-                                <div class="button-text is_2">Get the App</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="image-wrapper">
-                <img src="assets/images/footer-phone.png" loading="lazy" alt="" class="image">
-            </div>
-        </div>
-        
         <div class="row pt-4 mb-5">
             <div class="col-md-2">
                 <div class="footer-links--social">

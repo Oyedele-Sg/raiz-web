@@ -48,6 +48,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="floating-coins">
+                            <div class="coin-slot" data-slot="1">
+                                <img src="assets/images/coin-dollars.png" class="coin-image" alt="coin" />
+                            </div>
+                            <div class="coin-slot" data-slot="2">
+                                <img src="assets/images/coin-naira.png" class="coin-image" alt="coin" />
+                            </div>
+                            <div class="coin-slot" data-slot="3">
+                                <img src="assets/images/coin-btc.png" class="coin-image" alt="coin" />
+                            </div>
+                            <div class="coin-slot parent-container" data-slot="4">
+                                <img src="assets/images/coin-eth.png" class="coin-image" alt="coin" />
+                            </div>
+                        </div>
                         <!-- <div class="col-lg-6 col-sm-12">
                             <img src="assets/images/hero-bg-image.webp" class="hero-bg-image wow fadeInUp" data-wow-delay=".35s" alt="Hero Image"/>
                         </div> -->

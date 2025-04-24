@@ -313,5 +313,42 @@
         });
     });
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const coinPaths = [
+        "assets/images/coin-dollars.png",
+        "assets/images/coin-naira.png",
+        "assets/images/coin-euros.png",
+        "assets/images/coin-pounds.png",
+        "assets/images/coin-eth.png",
+        "assets/images/coin-btc.png"
+    ];
+
+    const slots = document.querySelectorAll(".coin-slot");
+
+    function getRandomCoin(currentSrc) {
+        let availableCoins = coinPaths.filter((coin) => !currentSrc.includes(coin));
+        return availableCoins[Math.floor(Math.random() * availableCoins.length)];
+    }
+
+    slots.forEach((slot, index) => {
+        const img = slot.querySelector("img");
+
+        setInterval(() => {
+        // Fade out
+        slot.style.opacity = 0;
+
+        setTimeout(() => {
+            const nextSrc = getRandomCoin(img.src);
+            img.src = nextSrc;
+
+            // Fade in
+            slot.style.opacity = 1;
+        }, 600); // wait for fade-out to finish
+        }, 4000 + index * 1000); // stagger animation start times
+    });
+    });
+</script>
+
 
 

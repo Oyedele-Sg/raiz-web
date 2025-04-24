@@ -1538,6 +1538,59 @@ sup {
     margin-bottom: 1.5rem;
 }
 
+.floating-coins {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.coin-slot {
+    position: absolute;
+    transition: opacity 0.6s ease;
+}
+
+.coin-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.coin-slot[data-slot="1"] {
+    top: 20%;
+    left: 10%;
+    width: 60px;
+    filter: blur(1.6px);
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.coin-slot[data-slot="2"] {
+    top: 75%;
+    left: 15%;
+    width: 160px;
+    transform: rotate3d(0, 0.5, 1, 35deg);
+}
+
+.coin-slot[data-slot="3"] {
+    top: 32%;
+    right: 15%;
+    width: 120px;
+}
+
+.coin-slot[data-slot="4"] {
+    top: 80%;
+    right: 5%;
+    width: 80px;
+    filter: blur(1.2px);
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+
 
 /* Draggable Image Breaker */
 .draggable-image--breaker {

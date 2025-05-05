@@ -31,8 +31,8 @@
                                         <a href="#" class="get-app--btn" data-bs-toggle="modal" data-bs-target="#downloadApp">
                                             <div class="text-move--wrapper">
                                                 <div class="text-move">
-                                                    <div class="button-text">Get the App</div>
-                                                    <div class="button-text is_2">Get the App</div>
+                                                    <div class="button-text">Download Raiz</div>
+                                                    <div class="button-text is_2">Download Raiz</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -180,7 +180,7 @@
                                     </div>
 
                                     <div class="r-features--card">
-                                        <div class="card-content blue">
+                                        <div class="card-content">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">
@@ -211,7 +211,7 @@
 
                                 <div class="r-features--group bottom-row">
                                     <div class="r-features--card">
-                                        <div class="card-content red">
+                                        <div class="card-content">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">
@@ -240,7 +240,7 @@
                                     </div>
 
                                     <div class="r-features--card">
-                                        <div class="card-content green">
+                                        <div class="card-content">
                                             <div class="content-wrap">
                                                 <div class="card-top">
                                                     <div class="icon-wrapper">

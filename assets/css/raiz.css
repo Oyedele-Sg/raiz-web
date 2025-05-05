@@ -69,6 +69,42 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-aWy5SgqoUP_C5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aWy5SgqoUP_C5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaWy5SgqoUP_C5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiaWy5SgqoUP_C5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 
 :root {
     --font: 'sk-modernist', sans-serif;
@@ -76,7 +112,7 @@
     --heading-color: #212b36;
     --primary-color: #4b0082;
     --secondary-color: #E1B3FD;
-    --tertiary-color: #940d63;
+    --tertiary-color: #796dff;
     --background-color: #e4e2f4;
     --background-orange-color: #ffc857;
     --white-color: #ffffff;
@@ -153,7 +189,7 @@ sup {
 }
 
 .section-title--wrap .section-title {
-    color: #242a49;
+    color: #343434;
     font-size: 60px;
     font-weight: 400;
     line-height: 65px;
@@ -1316,22 +1352,22 @@ sup {
 .hero-subtitle {
     color: var(--body-color);
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.45;
     padding-top: 2rem;
 }
 
 .get-app--btn, .qr-text--wrapper .app-download--btn {
     background-color: var(--tertiary-color);
-    border-radius: 100px;
+    border-radius: 8px;
     color: #fff;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    padding: 18px 28px;
-    font-size: 1.15rem;
-    font-weight: 500;
+    padding: 16px 8px 16px 16px;
+    font-size: 1rem;
+    font-weight: 400;
     line-height: 1;
     text-align: center;
     text-decoration: none;
@@ -2876,6 +2912,7 @@ sup {
 
 .r-features--card .card-content {
     background: #edeafdbf;
+    background: rgb(243, 243, 243);
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
@@ -2949,7 +2986,7 @@ sup {
 }
 
 .r-features--card .card-content .card-top .large-text {
-    color: #212b70;
+    color: #343434;
     font-size: 2.5rem;
     text-align: left;
     margin: 0;
@@ -3066,8 +3103,8 @@ sup {
 
 /* More Features */
 .more-features {
-    background-color: #fff;
-    padding: 96px 0 20px;
+    background-color: rgb(233, 231, 255);
+    padding: 96px 0 80px;
     position: relative;
 }
 
@@ -3083,7 +3120,7 @@ sup {
 }
 
 .more-features .content-wrap .large-text {
-    color: #242a49;
+    color: #343434;
     font-size: 48px;
     font-weight: 600;
     line-height: 1.1;
@@ -3162,7 +3199,7 @@ sup {
 }
 
 .more-features--list {
-    background-color: #f7f7f7;
+    background-color: #fff;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
